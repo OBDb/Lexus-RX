@@ -1,0 +1,5 @@
+command_id: '701.220103'
+test_cases:
+- expected_values:
+    LEXUS_ODO: 58286
+  response: 709076201030100E3AE
