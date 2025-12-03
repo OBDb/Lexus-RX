@@ -1,0 +1,32 @@
+command_id: 7E0.2121
+test_cases:
+- expected_values:
+    LEXUS_CC_VSS: 0
+  response: 7B803612100
+- expected_values:
+    LEXUS_CC_VSS: 4
+  response: 7B803612104
+- expected_values:
+    LEXUS_CC_VSS: 5
+  response: 7B803612105
+- expected_values:
+    LEXUS_CC_VSS: 9
+  response: 7B803612109
+- expected_values:
+    LEXUS_CC_VSS: 14
+  response: 7B80361210E
+- expected_values:
+    LEXUS_CC_VSS: 21
+  response: 7B803612115
+- expected_values:
+    LEXUS_CC_VSS: 22
+  response: 7B803612116
+- expected_values:
+    LEXUS_CC_VSS: 23
+  response: 7B803612117
+- expected_values:
+    LEXUS_CC_VSS: 24
+  response: 7B803612118
+- expected_values:
+    LEXUS_CC_VSS: 28
+  response: 7B80361211C
