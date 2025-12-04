@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.22106C|fc=1
+test_cases:
+- expected_values:
+    LEXUS_HVBAT_SOC_MAX: 72
+  response: 7DA0662106C4E904A
+- expected_values:
+    LEXUS_HVBAT_SOC_MAX: 69.5
+  response: 7DA0662106C808B75
+- expected_values:
+    LEXUS_HVBAT_SOC_MAX: 70.5
+  response: 7DA0662106C808D75
+- expected_values:
+    LEXUS_HVBAT_SOC_MAX: 73
+  response: 7DA0662106C809275

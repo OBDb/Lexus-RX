@@ -1,0 +1,38 @@
+command_id: 7D2.7DA.221F9A
+test_cases:
+- expected_values:
+    LEXUS_HVBAT_C: -24
+    LEXUS_HVBAT_V: 288
+  response: |-
+    7DA1009621F9A0E0048
+    7DA2100FF1000000000
+- expected_values:
+    LEXUS_HVBAT_C: 1.2
+    LEXUS_HVBAT_V: 289
+  response: |-
+    7DA1009621F9A0E0048
+    7DA2140000C00000000
+- expected_values:
+    LEXUS_HVBAT_C: 5.4
+    LEXUS_HVBAT_V: 291
+  response: |-
+    7DA1009621F9A0E0048
+    7DA21C0003600000000
+- expected_values:
+    LEXUS_HVBAT_C: -21
+    LEXUS_HVBAT_V: 295
+  response: |-
+    7DA1009621F9A0E0049
+    7DA21C0FF2E00000000
+- expected_values:
+    LEXUS_HVBAT_C: -2
+    LEXUS_HVBAT_V: 299
+  response: |-
+    7DA1009621F9A0E004A
+    7DA21C0FFEC00000000
+- expected_values:
+    LEXUS_HVBAT_C: -18.6
+    LEXUS_HVBAT_V: 304
+  response: |-
+    7DA1009621F9A0E004C
+    7DA2100FF4600000000

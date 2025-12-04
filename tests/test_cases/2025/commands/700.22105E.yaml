@@ -1,0 +1,17 @@
+command_id: 700.22105E
+test_cases:
+- expected_values:
+    LEXUS_ECU_INTERNAL_T: 16
+  response: '7080462105E38'
+- expected_values:
+    LEXUS_ECU_INTERNAL_T: 17
+  response: '7080462105E39'
+- expected_values:
+    LEXUS_ECU_INTERNAL_T: 18
+  response: 7080462105E3A
+- expected_values:
+    LEXUS_ECU_INTERNAL_T: 19
+  response: 7080462105E3B
+- expected_values:
+    LEXUS_ECU_INTERNAL_T: 20
+  response: 7080462105E3C
