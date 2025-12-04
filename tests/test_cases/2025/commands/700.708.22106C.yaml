@@ -1,0 +1,23 @@
+command_id: 700.708.22106C
+test_cases:
+- expected_values:
+    LEXUS_DIST_SINCE_BAT_DISC: 10060
+  response: 7080562106C274C
+- expected_values:
+    LEXUS_DIST_SINCE_BAT_DISC: 10061
+  response: 7080562106C274D
+- expected_values:
+    LEXUS_DIST_SINCE_BAT_DISC: 10062
+  response: 7080562106C274E
+- expected_values:
+    LEXUS_DIST_SINCE_BAT_DISC: 10172
+  response: 7080562106C27BC
+- expected_values:
+    LEXUS_DIST_SINCE_BAT_DISC: 10173
+  response: 7080562106C27BD
+- expected_values:
+    LEXUS_DIST_SINCE_BAT_DISC: 10174
+  response: 7080562106C27BE
+- expected_values:
+    LEXUS_DIST_SINCE_BAT_DISC: 10175
+  response: 7080562106C27BF
