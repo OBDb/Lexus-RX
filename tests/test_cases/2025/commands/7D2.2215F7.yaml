@@ -1,0 +1,14 @@
+command_id: 7D2.2215F7
+test_cases:
+- expected_values:
+    LEXUS_12V_C: 1.84259
+  response: 7DA056215F781E3
+- expected_values:
+    LEXUS_12V_C: 1.9494
+  response: 7DA056215F781FF
+- expected_values:
+    LEXUS_12V_C: 1.96847
+  response: 7DA056215F78204
+- expected_values:
+    LEXUS_12V_C: 12.11176
+  response: 7DA056215F78C67

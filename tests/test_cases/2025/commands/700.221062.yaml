@@ -1,0 +1,14 @@
+command_id: '700.221062'
+test_cases:
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.75456
+  response: '7080562106206E2'
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.86442
+  response: 7080562106206F4
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.95598
+  response: '708056210620703'
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 47.58984
+  response: '708056210621E75'
