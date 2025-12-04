@@ -1,0 +1,27 @@
+command_id: 700.2210A5
+test_cases:
+- expected_values:
+    LEXUS_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A5000000
+    7082100790000000000
+- expected_values:
+    LEXUS_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A5000000
+    7082100930000000000
+- expected_values:
+    LEXUS_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A5000029
+    7082100FF0000000000
+- expected_values:
+    LEXUS_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A50000DF
+    7082100AB0000000000
+- expected_values:
+    LEXUS_MISFIRE_COUNT: 0
+  response: |-
+    70810086210A500010F
+    7082100FF0000000000

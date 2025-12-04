@@ -1,0 +1,8 @@
+command_id: 7D2.221F5B|fc=1
+test_cases:
+- expected_values:
+    LEXUS_SOC: 63.92157
+  response: 7DA04621F5BA3
+- expected_values:
+    LEXUS_SOC: 72.15686
+  response: 7DA04621F5BB8

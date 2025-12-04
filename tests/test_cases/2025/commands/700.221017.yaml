@@ -1,0 +1,32 @@
+command_id: '700.221017'
+test_cases:
+- expected_values:
+    LEXUS_INJ_VOL: 0
+  response: '708056210170000'
+- expected_values:
+    LEXUS_INJ_VOL: 0.76344
+  response: 70805621017098B
+- expected_values:
+    LEXUS_INJ_VOL: 1.01531
+  response: 708056210170CB1
+- expected_values:
+    LEXUS_INJ_VOL: 1.45
+  response: '708056210171220'
+- expected_values:
+    LEXUS_INJ_VOL: 1.89344
+  response: 7080562101717AB
+- expected_values:
+    LEXUS_INJ_VOL: 2.32094
+  response: 708056210171D03
+- expected_values:
+    LEXUS_INJ_VOL: 2.66594
+  response: '708056210172153'
+- expected_values:
+    LEXUS_INJ_VOL: 3.08156
+  response: '708056210172685'
+- expected_values:
+    LEXUS_INJ_VOL: 4.60281
+  response: '708056210173989'
+- expected_values:
+    LEXUS_INJ_VOL: 5.04719
+  response: 708056210173F17
