@@ -1,0 +1,29 @@
+command_id: 7C0.7C8.221021
+test_cases:
+- expected_values:
+    LEXUS_BATTERY_VOLTAGE: 0
+  response: 7C80462102100
+- expected_values:
+    LEXUS_BATTERY_VOLTAGE: 12.6
+  response: 7C8046210217E
+- expected_values:
+    LEXUS_BATTERY_VOLTAGE: 12.7
+  response: 7C8046210217F
+- expected_values:
+    LEXUS_BATTERY_VOLTAGE: 13.1
+  response: 7C80462102183
+- expected_values:
+    LEXUS_BATTERY_VOLTAGE: 13.9
+  response: 7C8046210218B
+- expected_values:
+    LEXUS_BATTERY_VOLTAGE: 14
+  response: 7C8046210218C
+- expected_values:
+    LEXUS_BATTERY_VOLTAGE: 14.2
+  response: 7C8046210218E
+- expected_values:
+    LEXUS_BATTERY_VOLTAGE: 14.3
+  response: 7C8046210218F
+- expected_values:
+    LEXUS_BATTERY_VOLTAGE: 14.5
+  response: 7C80462102191

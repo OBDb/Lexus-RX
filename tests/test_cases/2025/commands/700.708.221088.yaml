@@ -1,0 +1,11 @@
+command_id: 700.708.221088
+test_cases:
+- expected_values:
+    LEXUS_EXHAUST_VVT_ANGLE_B1: 0
+  response: '708056210880000'
+- expected_values:
+    LEXUS_EXHAUST_VVT_ANGLE_B1: 4.81377
+  response: 7080562108801ED
+- expected_values:
+    LEXUS_EXHAUST_VVT_ANGLE_B1: 28.17962
+  response: 708056210880B46

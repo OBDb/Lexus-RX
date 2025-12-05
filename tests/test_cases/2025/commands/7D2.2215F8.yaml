@@ -1,0 +1,29 @@
+command_id: 7D2.2215F8
+test_cases:
+- expected_values:
+    LEXUS_12V_T: 13.6
+  response: 7DA056215F80218
+- expected_values:
+    LEXUS_12V_T: 13.7
+  response: 7DA056215F80219
+- expected_values:
+    LEXUS_12V_T: 13.8
+  response: 7DA056215F8021A
+- expected_values:
+    LEXUS_12V_T: 15.2
+  response: 7DA056215F80228
+- expected_values:
+    LEXUS_12V_T: 15.3
+  response: 7DA056215F80229
+- expected_values:
+    LEXUS_12V_T: 15.4
+  response: 7DA056215F8022A
+- expected_values:
+    LEXUS_12V_T: 15.5
+  response: 7DA056215F8022B
+- expected_values:
+    LEXUS_12V_T: 15.6
+  response: 7DA056215F8022C
+- expected_values:
+    LEXUS_12V_T: 15.7
+  response: 7DA056215F8022D
