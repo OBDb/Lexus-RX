@@ -1,0 +1,26 @@
+command_id: 7B0.221006
+test_cases:
+- expected_values:
+    LEXUS_MASTER_CYL_TEMP: 14
+  response: 7B8056210065E00
+- expected_values:
+    LEXUS_MASTER_CYL_TEMP: 15
+  response: 7B8056210065F00
+- expected_values:
+    LEXUS_MASTER_CYL_TEMP: 16
+  response: 7B8056210066000
+- expected_values:
+    LEXUS_MASTER_CYL_TEMP: 17
+  response: 7B8056210066100
+- expected_values:
+    LEXUS_MASTER_CYL_TEMP: 18
+  response: 7B8056210066200
+- expected_values:
+    LEXUS_MASTER_CYL_TEMP: 19
+  response: 7B8056210066300
+- expected_values:
+    LEXUS_MASTER_CYL_TEMP: 22
+  response: 7B8056210066600
+- expected_values:
+    LEXUS_MASTER_CYL_TEMP: 23
+  response: 7B8056210066700

@@ -1,0 +1,98 @@
+command_id: 7D2.2210A1
+test_cases:
+- expected_values:
+    LEXUS_RPM: -252
+    LEXUS_TQ: -25.25
+  response: |-
+    7DA100C6210A17F047F
+    7DA213603007F360400
+- expected_values:
+    LEXUS_RPM: -165
+    LEXUS_TQ: -32.625
+  response: |-
+    7DA100C6210A17F5B7E
+    7DA21FC03007EFB0400
+- expected_values:
+    LEXUS_RPM: -68
+    LEXUS_TQ: -38
+  response: |-
+    7DA100C6210A17FBC7E
+    7DA21D303007ED00400
+- expected_values:
+    LEXUS_RPM: -6
+    LEXUS_TQ: 29.625
+  response: |-
+    7DA100C6210A17FFA80
+    7DA21F0030080ED0400
+- expected_values:
+    LEXUS_RPM: -1
+    LEXUS_TQ: -6.875
+  response: |-
+    7DA100C6210A17FFF7F
+    7DA21C403007FC90400
+- expected_values:
+    LEXUS_RPM: -1
+    LEXUS_TQ: -1.25
+  response: |-
+    7DA100C6210A17FFF7F
+    7DA21F303007FF60400
+- expected_values:
+    LEXUS_RPM: -1
+    LEXUS_TQ: -0.25
+  response: |-
+    7DA100C6210A17FFF80
+    7DA210003007FFE0400
+- expected_values:
+    LEXUS_RPM: -1
+    LEXUS_TQ: -0.125
+  response: |-
+    7DA100C6210A17FFF80
+    7DA210003007FFF0400
+- expected_values:
+    LEXUS_RPM: 0
+    LEXUS_TQ: -5.875
+  response: |-
+    7DA100C6210A180007F
+    7DA21CC03007FD10400
+- expected_values:
+    LEXUS_RPM: 0
+    LEXUS_TQ: 0
+  response: |-
+    7DA100C6210A1800080
+    7DA2100030080000000
+- expected_values:
+    LEXUS_RPM: 0
+    LEXUS_TQ: 3.5
+  response: |-
+    7DA100C6210A1800080
+    7DA211F0300801C0400
+- expected_values:
+    LEXUS_RPM: 316
+    LEXUS_TQ: 170.875
+  response: |-
+    7DA100C6210A1813C85
+    7DA21C4030085570400
+- expected_values:
+    LEXUS_RPM: 1021
+    LEXUS_TQ: -83.5
+  response: |-
+    7DA100C6210A183FD7D
+    7DA213D03007D640400
+- expected_values:
+    LEXUS_RPM: 1979
+    LEXUS_TQ: -35.25
+  response: |-
+    7DA100C6210A187BB7E
+    7DA21D704007EE60400
+- expected_values:
+    LEXUS_RPM: 4103
+    LEXUS_TQ: 53.375
+  response: |-
+    7DA100C6210A1900781
+    7DA21EB040181AB0400
+- expected_values:
+    LEXUS_RPM: 6431
+    LEXUS_TQ: -12.5
+  response: |-
+    7DA100C6210A1991F7F
+    7DA218904007F9C0400
