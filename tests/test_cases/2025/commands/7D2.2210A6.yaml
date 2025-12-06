@@ -1,0 +1,22 @@
+command_id: 7D2.2210A6
+test_cases:
+- expected_values:
+    LEXUS_M_INVRT_MAX_T: 26
+    LEXUS_RM_INVRT_COOL_T: 9
+  response: 7DA066210A6313442
+- expected_values:
+    LEXUS_M_INVRT_MAX_T: 31
+    LEXUS_RM_INVRT_COOL_T: 13
+  response: 7DA066210A6353747
+- expected_values:
+    LEXUS_M_INVRT_MAX_T: 28
+    LEXUS_RM_INVRT_COOL_T: 13
+  response: 7DA066210A6353844
+- expected_values:
+    LEXUS_M_INVRT_MAX_T: 18
+    LEXUS_RM_INVRT_COOL_T: 14
+  response: 7DA066210A636383A
+- expected_values:
+    LEXUS_M_INVRT_MAX_T: 30
+    LEXUS_RM_INVRT_COOL_T: 25
+  response: 7DA066210A6413846
