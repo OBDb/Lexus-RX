@@ -1,0 +1,32 @@
+command_id: 7D2.221F46
+test_cases:
+- expected_values:
+    LEXUS_AAT: 6
+  response: 7DA04621F462E
+- expected_values:
+    LEXUS_AAT: 7
+  response: 7DA04621F462F
+- expected_values:
+    LEXUS_AAT: 8
+  response: 7DA04621F4630
+- expected_values:
+    LEXUS_AAT: 9
+  response: 7DA04621F4631
+- expected_values:
+    LEXUS_AAT: 10
+  response: 7DA04621F4632
+- expected_values:
+    LEXUS_AAT: 11
+  response: 7DA04621F4633
+- expected_values:
+    LEXUS_AAT: 12
+  response: 7DA04621F4634
+- expected_values:
+    LEXUS_AAT: 13
+  response: 7DA04621F4635
+- expected_values:
+    LEXUS_AAT: 14
+  response: 7DA04621F4636
+- expected_values:
+    LEXUS_AAT: 15
+  response: 7DA04621F4637
