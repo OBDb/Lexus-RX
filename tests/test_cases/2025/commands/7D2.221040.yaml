@@ -1,0 +1,17 @@
+command_id: 7D2.221040
+test_cases:
+- expected_values:
+    LEXUS_TRANSAXLE_OIL_T: 42
+  response: 7DA06621040B51052
+- expected_values:
+    LEXUS_TRANSAXLE_OIL_T: 41
+  response: 7DA06621040B5F051
+- expected_values:
+    LEXUS_TRANSAXLE_OIL_T: 41
+  response: 7DA06621040B60051
+- expected_values:
+    LEXUS_TRANSAXLE_OIL_T: 15
+  response: 7DA06621040D20037
+- expected_values:
+    LEXUS_TRANSAXLE_OIL_T: 14
+  response: 7DA06621040D29036
