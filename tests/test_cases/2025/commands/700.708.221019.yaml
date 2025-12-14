@@ -1,0 +1,17 @@
+command_id: 700.708.221019
+test_cases:
+- expected_values:
+    LEXUS_INJECTION: DIRECT
+  response: 7080762101901DC8AF0
+- expected_values:
+    LEXUS_INJECTION: DIRECT
+  response: 7080762101901EE8000
+- expected_values:
+    LEXUS_INJECTION: DIRECT
+  response: 7080762101901FF8AF0
+- expected_values:
+    LEXUS_INJECTION: BOTH
+  response: '7080762101902008000'
+- expected_values:
+    LEXUS_INJECTION: BOTH
+  response: 70807621019023C8BB8
