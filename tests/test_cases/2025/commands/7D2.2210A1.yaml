@@ -1,0 +1,98 @@
+command_id: 7D2.2210A1
+test_cases:
+- expected_values:
+    LEXUS_RPM: -363
+    LEXUS_TQ: -11.875
+  response: |-
+    7DA100C6210A17E957F
+    7DA21A103007FA10400
+- expected_values:
+    LEXUS_RPM: -358
+    LEXUS_TQ: -16
+  response: |-
+    7DA100C6210A17E9A7F
+    7DA217903007F800400
+- expected_values:
+    LEXUS_RPM: -274
+    LEXUS_TQ: -24.25
+  response: |-
+    7DA100C6210A17EEE7F
+    7DA213F03007F3E0400
+- expected_values:
+    LEXUS_RPM: -250
+    LEXUS_TQ: -91.75
+  response: |-
+    7DA100C6210A17F067D
+    7DA210103007D220400
+- expected_values:
+    LEXUS_RPM: -235
+    LEXUS_TQ: -28.125
+  response: |-
+    7DA100C6210A17F157F
+    7DA212003007F1F0400
+- expected_values:
+    LEXUS_RPM: -165
+    LEXUS_TQ: -32.625
+  response: |-
+    7DA100C6210A17F5B7E
+    7DA21FC03007EFB0400
+- expected_values:
+    LEXUS_RPM: -7
+    LEXUS_TQ: -0.125
+  response: |-
+    7DA100C6210A17FF980
+    7DA210003007FFF0400
+- expected_values:
+    LEXUS_RPM: -6
+    LEXUS_TQ: 0
+  response: |-
+    7DA100C6210A17FFA80
+    7DA2100030080000400
+- expected_values:
+    LEXUS_RPM: -1
+    LEXUS_TQ: -6.875
+  response: |-
+    7DA100C6210A17FFF7F
+    7DA21C403007FC90400
+- expected_values:
+    LEXUS_RPM: 0
+    LEXUS_TQ: -8.875
+  response: |-
+    7DA100C6210A180007F
+    7DA21B603007FB90400
+- expected_values:
+    LEXUS_RPM: 0
+    LEXUS_TQ: -0.125
+  response: |-
+    7DA100C6210A1800080
+    7DA210003007FFF0000
+- expected_values:
+    LEXUS_RPM: 316
+    LEXUS_TQ: 170.875
+  response: |-
+    7DA100C6210A1813C85
+    7DA21C4030085570400
+- expected_values:
+    LEXUS_RPM: 1039
+    LEXUS_TQ: -111.25
+  response: |-
+    7DA100C6210A1840F7C
+    7DA215003007C860400
+- expected_values:
+    LEXUS_RPM: 1801
+    LEXUS_TQ: -48.125
+  response: |-
+    7DA100C6210A187097E
+    7DA216204007E7F0400
+- expected_values:
+    LEXUS_RPM: 5859
+    LEXUS_TQ: 93
+  response: |-
+    7DA100C6210A196E382
+    7DA21D3040282E80400
+- expected_values:
+    LEXUS_RPM: 7939
+    LEXUS_TQ: -2
+  response: |-
+    7DA100C6210A19F037F
+    7DA21D904007FF00400
