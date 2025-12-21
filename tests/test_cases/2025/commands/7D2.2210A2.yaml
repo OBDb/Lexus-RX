@@ -1,0 +1,62 @@
+command_id: 7D2.2210A2
+test_cases:
+- expected_values:
+    LEXUS_RM_TQ_REQ: -308
+  response: |-
+    7DA100C6210A27ECC7F
+    7DA21F804007FFB0400
+- expected_values:
+    LEXUS_RM_TQ_REQ: -253
+  response: |-
+    7DA100C6210A27F037E
+    7DA21E704007EE60400
+- expected_values:
+    LEXUS_RM_TQ_REQ: -12
+  response: |-
+    7DA100C6210A27FF480
+    7DA210004007FFF0400
+- expected_values:
+    LEXUS_RM_TQ_REQ: -10
+  response: |-
+    7DA100C6210A27FF680
+    7DA2100040080000400
+- expected_values:
+    LEXUS_RM_TQ_REQ: -6
+  response: |-
+    7DA100C6210A27FFA80
+    7DA2100040080000000
+- expected_values:
+    LEXUS_RM_TQ_REQ: -1
+  response: |-
+    7DA100C6210A27FFF80
+    7DA210004007FFE0000
+- expected_values:
+    LEXUS_RM_TQ_REQ: 0
+  response: |-
+    7DA100C6210A2800080
+    7DA210004007FFF0200
+- expected_values:
+    LEXUS_RM_TQ_REQ: 0
+  response: |-
+    7DA100C6210A2800080
+    7DA210F0400800B0400
+- expected_values:
+    LEXUS_RM_TQ_REQ: 57
+  response: |-
+    7DA100C6210A2803981
+    7DA2186010081620400
+- expected_values:
+    LEXUS_RM_TQ_REQ: 787
+  response: |-
+    7DA100C6210A2831382
+    7DA214A040082510400
+- expected_values:
+    LEXUS_RM_TQ_REQ: 6760
+  response: |-
+    7DA100C6210A29A6880
+    7DA2100040280020400
+- expected_values:
+    LEXUS_RM_TQ_REQ: 7959
+  response: |-
+    7DA100C6210A29F1780
+    7DA2100040280000400
