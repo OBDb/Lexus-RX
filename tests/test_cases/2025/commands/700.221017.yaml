@@ -1,0 +1,11 @@
+command_id: '700.221017'
+test_cases:
+- expected_values:
+    LEXUS_INJ_VOL: 0
+  response: '708056210170000'
+- expected_values:
+    LEXUS_INJ_VOL: 2.23969
+  response: 708056210171BFF
+- expected_values:
+    LEXUS_INJ_VOL: 6.16531
+  response: 708056210174D11
