@@ -1,0 +1,11 @@
+command_id: 700.708.221018
+test_cases:
+- expected_values:
+    LEXUS_INJECTOR_PORT: 0
+  response: '708056210180000'
+- expected_values:
+    LEXUS_INJECTOR_PORT: 2.815
+  response: 708056210180AFF
+- expected_values:
+    LEXUS_INJECTOR_PORT: 21.697
+  response: 7080562101854C1
