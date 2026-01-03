@@ -1,0 +1,10 @@
+command_id: 750.222021|e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    LEXUS_TID_1: FR
+    LEXUS_TID_2: FL
+    LEXUS_TID_3: RR
+    LEXUS_TID_4: RL
+  response: |-
+    7582A10086220210201
+    7582A21040300000000
