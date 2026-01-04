@@ -1,0 +1,8 @@
+command_id: 7D2.221F4A
+test_cases:
+- expected_values:
+    LEXUS_ACC_PEDAL_POS_2: 31.76471
+  response: 7DA04621F4A51
+- expected_values:
+    LEXUS_ACC_PEDAL_POS_2: 68.23529
+  response: 7DA04621F4AAE
