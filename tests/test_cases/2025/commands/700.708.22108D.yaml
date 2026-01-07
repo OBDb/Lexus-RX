@@ -1,0 +1,8 @@
+command_id: 700.708.22108D
+test_cases:
+- expected_values:
+    LEXUS_INTAKE_VVT_OVER_RET_LEARN_B1: 32.80272
+  response: 7080562108D0D1F
+- expected_values:
+    LEXUS_INTAKE_VVT_OVER_RET_LEARN_B1: 33.13475
+  response: 7080562108D0D41
