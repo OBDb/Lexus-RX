@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Lexus_RX"
+
 generations:
   - name: "First Generation (XU10)"
     start_year: 1999
