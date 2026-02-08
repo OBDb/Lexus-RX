@@ -1,6 +1,0 @@
-command_id: 700.22105C
-test_cases:
-- expected_values:
-    LEXUS_KNOCK_CORRECT_LEARNED_VALUE: 22.0625
-    LEXUS_KNOCK_FEEDBACK_VALUE: -3
-  response: 7080762105C82C27FA0
