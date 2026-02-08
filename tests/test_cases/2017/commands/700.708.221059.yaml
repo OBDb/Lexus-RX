@@ -1,0 +1,47 @@
+command_id: 700.708.221059
+test_cases:
+- expected_values:
+    LEXUS_ACCEL_PEDAL: 0
+  response: |-
+    708100A621059295229
+    7082152000000000000
+- expected_values:
+    LEXUS_ACCEL_PEDAL: 0
+  response: |-
+    708100A621059305929
+    7082152032800000000
+- expected_values:
+    LEXUS_ACCEL_PEDAL: 0
+  response: |-
+    708100A621059335C29
+    708215204C200000000
+- expected_values:
+    LEXUS_ACCEL_PEDAL: 0.5493
+  response: |-
+    708100A6210593B6429
+    7082152092300000000
+- expected_values:
+    LEXUS_ACCEL_PEDAL: 4.07042
+  response: |-
+    708100A621059406829
+    70821520B9900000000
+- expected_values:
+    LEXUS_ACCEL_PEDAL: 4.07042
+  response: |-
+    708100A621059406929
+    70821520B8000000000
+- expected_values:
+    LEXUS_ACCEL_PEDAL: 4.77465
+  response: |-
+    708100A621059416A29
+    70821520C5700000000
+- expected_values:
+    LEXUS_ACCEL_PEDAL: 7.59155
+  response: |-
+    708100A621059456E29
+    70821520EAE00000000
+- expected_values:
+    LEXUS_ACCEL_PEDAL: 9
+  response: |-
+    708100A621059476F29
+    70821520F7A00000000
