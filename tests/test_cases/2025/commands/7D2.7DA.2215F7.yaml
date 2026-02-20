@@ -10,5 +10,5 @@ test_cases:
     LEXUS_12V_C: 0.97665
   response: 7DA056215F78100
 - expected_values:
-    LEXUS_12V_C: 36.31603
-  response: 7DA056215F7A530
+    LEXUS_12V_C: 37.90295
+  response: 7DA056215F7A6D0
