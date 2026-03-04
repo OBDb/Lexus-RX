@@ -4,8 +4,8 @@ test_cases:
     LEXUS_EXHAUST_VVT_ANGLE_B1: 0
   response: '708056210880000'
 - expected_values:
-    LEXUS_EXHAUST_VVT_ANGLE_B1: 7.48918
-  response: 7080562108802FF
+    LEXUS_EXHAUST_VVT_ANGLE_B1: 4.98953
+  response: 7080562108801FF
 - expected_values:
     LEXUS_EXHAUST_VVT_ANGLE_B1: 35.09271
   response: 708056210880E0A
