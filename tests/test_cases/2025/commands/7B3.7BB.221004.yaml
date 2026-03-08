@@ -7,8 +7,8 @@ test_cases:
     LEXUS_STEERING_ANGLE_V2: 0
   response: 7BB0662100400000F
 - expected_values:
-    LEXUS_STEERING_ANGLE_V2: 410
-  response: 7BB066210040EFF01
+    LEXUS_STEERING_ANGLE_V2: 382.5
+  response: 7BB0662100400FF05
 - expected_values:
     LEXUS_STEERING_ANGLE_V2: 410
   response: 7BB066210040F0100
