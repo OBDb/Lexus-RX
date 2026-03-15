@@ -14,7 +14,7 @@ test_cases:
     LEXUS_MISFIRE_COUNT: 0
   response: |-
     70810086210A5000000
-    7082100FF0000000000
+    7082100F90000000000
 - expected_values:
     LEXUS_MISFIRE_COUNT: 0
   response: |-
