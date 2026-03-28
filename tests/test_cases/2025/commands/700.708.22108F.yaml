@@ -1,8 +1,8 @@
 command_id: 700.708.22108F
 test_cases:
 - expected_values:
-    LEXUS_EXHAUST_VVT_OVER_ADV_LEARN_B1: 91.27926
-  response: 7080562108F2483
+    LEXUS_EXHAUST_VVT_OVER_ADV_LEARN_B1: 91.24997
+  response: 7080562108F2480
 - expected_values:
     LEXUS_EXHAUST_VVT_OVER_ADV_LEARN_B1: 92.4902
   response: 7080562108F24FF
