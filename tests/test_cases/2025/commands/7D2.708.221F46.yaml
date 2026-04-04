@@ -1,8 +1,8 @@
 command_id: 7D2.708.221F46
 test_cases:
 - expected_values:
-    LEXUS_AAT: 2
-  response: 70804621F462A
+    LEXUS_AAT: 1
+  response: 70804621F4629
 - expected_values:
     LEXUS_AAT: 33
   response: 70804621F4649
