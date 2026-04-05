@@ -7,6 +7,12 @@ test_cases:
     7DA100C6210A17DD87F
     7DA21E003007FE40400
 - expected_values:
+    LEXUS_RPM: -444
+    LEXUS_TQ: -42.125
+  response: |-
+    7DA100C6210A17E447E
+    7DA21B203007EAF0400
+- expected_values:
     LEXUS_RPM: -394
     LEXUS_TQ: -65.875
   response: |-
@@ -36,12 +42,6 @@ test_cases:
   response: |-
     7DA100C6210A17F007F
     7DA212F03007F300400
-- expected_values:
-    LEXUS_RPM: -253
-    LEXUS_TQ: -26.125
-  response: |-
-    7DA100C6210A17F037F
-    7DA212F03007F2F0400
 - expected_values:
     LEXUS_RPM: -165
     LEXUS_TQ: -32.625
