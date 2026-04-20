@@ -4,5 +4,5 @@ test_cases:
     LEXUS_ECU_INTERNAL_T: 9
   response: '7080462105E31'
 - expected_values:
-    LEXUS_ECU_INTERNAL_T: 37
-  response: 7080462105E4D
+    LEXUS_ECU_INTERNAL_T: 38
+  response: 7080462105E4E
