@@ -4,5 +4,5 @@ test_cases:
     LEXUS_ACC_PEDAL_POS_2: 31.76471
   response: 7DA04621F4A51
 - expected_values:
-    LEXUS_ACC_PEDAL_POS_2: 69.01961
-  response: 7DA04621F4AB0
+    LEXUS_ACC_PEDAL_POS_2: 75.68627
+  response: 7DA04621F4AC1
