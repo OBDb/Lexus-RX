@@ -1,0 +1,14 @@
+command_id: 700.708.221041
+test_cases:
+- expected_values:
+    LEXUS_ECT_IGN: 25
+    LEXUS_ECT_INIT: 26.875
+  response: 70805621041686B
+- expected_values:
+    LEXUS_ECT_IGN: 25
+    LEXUS_ECT_INIT: 27.5
+  response: 70805621041686C
+- expected_values:
+    LEXUS_ECT_IGN: 25
+    LEXUS_ECT_INIT: 28.125
+  response: 70805621041686D
