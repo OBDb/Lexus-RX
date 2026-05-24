@@ -1,0 +1,29 @@
+command_id: 7D2.221F5B|fc=1
+test_cases:
+- expected_values:
+    LEXUS_SOC: 39.21569
+  response: 7DA04621F5B64
+- expected_values:
+    LEXUS_SOC: 39.60784
+  response: 7DA04621F5B65
+- expected_values:
+    LEXUS_SOC: 40.78431
+  response: 7DA04621F5B68
+- expected_values:
+    LEXUS_SOC: 42.7451
+  response: 7DA04621F5B6D
+- expected_values:
+    LEXUS_SOC: 44.70588
+  response: 7DA04621F5B72
+- expected_values:
+    LEXUS_SOC: 45.88235
+  response: 7DA04621F5B75
+- expected_values:
+    LEXUS_SOC: 46.66667
+  response: 7DA04621F5B77
+- expected_values:
+    LEXUS_SOC: 47.84314
+  response: 7DA04621F5B7A
+- expected_values:
+    LEXUS_SOC: 48.62745
+  response: 7DA04621F5B7C
