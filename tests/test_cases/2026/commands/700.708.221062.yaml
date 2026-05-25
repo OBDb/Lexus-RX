@@ -1,0 +1,32 @@
+command_id: 700.708.221062
+test_cases:
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.70573
+  response: 7080562106206DA
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.71183
+  response: 7080562106206DB
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.74235
+  response: '7080562106206E0'
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.75456
+  response: '7080562106206E2'
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.76677
+  response: '7080562106206E4'
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.77287
+  response: '7080562106206E5'
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.87663
+  response: 7080562106206F6
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 11.21233
+  response: 70805621062072D
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 36.60945
+  response: 70805621062176E
+- expected_values:
+    LEXUS_EXHAUST_VVT_OCV_CONTROL_DUTY: 37.0428
+  response: 7080562106217B5
