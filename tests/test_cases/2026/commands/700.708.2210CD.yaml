@@ -1,0 +1,42 @@
+command_id: 700.708.2210CD
+test_cases:
+- expected_values:
+    LEXUS_LFP: 318.7
+    LEXUS_LFPS: -2958.1
+  response: 708056210CD8C73
+- expected_values:
+    LEXUS_LFP: 325.7
+    LEXUS_LFPS: -2951.1
+  response: 708056210CD8CB9
+- expected_values:
+    LEXUS_LFP: 340.7
+    LEXUS_LFPS: -2936.1
+  response: 708056210CD8D4F
+- expected_values:
+    LEXUS_LFP: 352.1
+    LEXUS_LFPS: -2924.7
+  response: 708056210CD8DC1
+- expected_values:
+    LEXUS_LFP: 362.6
+    LEXUS_LFPS: -2914.2
+  response: 708056210CD8E2A
+- expected_values:
+    LEXUS_LFP: 372.4
+    LEXUS_LFPS: -2904.4
+  response: 708056210CD8E8C
+- expected_values:
+    LEXUS_LFP: 376.7
+    LEXUS_LFPS: -2900.1
+  response: 708056210CD8EB7
+- expected_values:
+    LEXUS_LFP: 380.2
+    LEXUS_LFPS: -2896.6
+  response: 708056210CD8EDA
+- expected_values:
+    LEXUS_LFP: 382.6
+    LEXUS_LFPS: -2894.2
+  response: 708056210CD8EF2
+- expected_values:
+    LEXUS_LFP: 391.7
+    LEXUS_LFPS: -2885.1
+  response: 708056210CD8F4D

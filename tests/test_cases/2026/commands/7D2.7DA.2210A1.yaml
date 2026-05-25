@@ -1,0 +1,38 @@
+command_id: 7D2.7DA.2210A1
+test_cases:
+- expected_values:
+    LEXUS_RPM: -1
+    LEXUS_TQ: 0
+  response: |-
+    7DA100C6210A17FFF80
+    7DA2100030080000400
+- expected_values:
+    LEXUS_RPM: 0
+    LEXUS_TQ: 0
+  response: |-
+    7DA100C6210A1800080
+    7DA2100030080000000
+- expected_values:
+    LEXUS_RPM: 0
+    LEXUS_TQ: 0
+  response: |-
+    7DA100C6210A1800080
+    7DA2100030080000400
+- expected_values:
+    LEXUS_RPM: 1
+    LEXUS_TQ: 0
+  response: |-
+    7DA100C6210A1800180
+    7DA2100030080000400
+- expected_values:
+    LEXUS_RPM: 1
+    LEXUS_TQ: 27.5
+  response: |-
+    7DA100C6210A1800180
+    7DA21DD030080DC0400
+- expected_values:
+    LEXUS_RPM: 2
+    LEXUS_TQ: 26.125
+  response: |-
+    7DA100C6210A1800280
+    7DA21D3030080D10400

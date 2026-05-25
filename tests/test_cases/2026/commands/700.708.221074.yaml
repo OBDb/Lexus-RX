@@ -1,0 +1,14 @@
+command_id: 700.708.221074
+test_cases:
+- expected_values:
+    LEXUS_ENG_OIL_PRESS: 0
+    LEXUS_EOP: 0
+  response: '708056210740000'
+- expected_values:
+    LEXUS_ENG_OIL_PRESS: 106.48438
+    LEXUS_EOP: 1363
+  response: '708056210740553'
+- expected_values:
+    LEXUS_ENG_OIL_PRESS: 109.6875
+    LEXUS_EOP: 1404
+  response: 70805621074057C
