@@ -9,3 +9,21 @@ test_cases:
 - expected_values:
     LEXUS_AAT: 33
   response: 70804621F4649
+- expected_values:
+    LEXUS_AAT: 34
+  response: 70804621F464A
+- expected_values:
+    LEXUS_AAT: 35
+  response: 70804621F464B
+- expected_values:
+    LEXUS_AAT: 36
+  response: 70804621F464C
+- expected_values:
+    LEXUS_AAT: 38
+  response: 70804621F464E
+- expected_values:
+    LEXUS_AAT: 39
+  response: 70804621F464F
+- expected_values:
+    LEXUS_AAT: 44
+  response: 70804621F4654
