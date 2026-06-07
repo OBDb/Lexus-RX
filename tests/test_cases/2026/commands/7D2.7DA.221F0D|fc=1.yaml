@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     LEXUS_VSS_V2: 0
   response: 7DA04621F0D00
+- expected_values:
+    LEXUS_VSS_V2: 4
+  response: 7DA04621F0D04
+- expected_values:
+    LEXUS_VSS_V2: 15
+  response: 7DA04621F0D0F
+- expected_values:
+    LEXUS_VSS_V2: 27
+  response: 7DA04621F0D1B
+- expected_values:
+    LEXUS_VSS_V2: 31
+  response: 7DA04621F0D1F
+- expected_values:
+    LEXUS_VSS_V2: 51
+  response: 7DA04621F0D33
+- expected_values:
+    LEXUS_VSS_V2: 52
+  response: 7DA04621F0D34
+- expected_values:
+    LEXUS_VSS_V2: 56
+  response: 7DA04621F0D38
+- expected_values:
+    LEXUS_VSS_V2: 73
+  response: 7DA04621F0D49

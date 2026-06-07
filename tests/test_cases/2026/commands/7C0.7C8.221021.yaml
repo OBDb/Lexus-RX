@@ -4,5 +4,8 @@ test_cases:
     LEXUS_BATTERY_VOLTAGE_V2: 13.9
   response: 7C8046210218B
 - expected_values:
+    LEXUS_BATTERY_VOLTAGE_V2: 14
+  response: 7C8046210218C
+- expected_values:
     LEXUS_BATTERY_VOLTAGE_V2: 14.1
   response: 7C8046210218D

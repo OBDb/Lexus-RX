@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     LEXUS_INVRT_COOLANT_T: 33
   response: 7DA046210B249
+- expected_values:
+    LEXUS_INVRT_COOLANT_T: 37
+  response: 7DA046210B24D
+- expected_values:
+    LEXUS_INVRT_COOLANT_T: 38
+  response: 7DA046210B24E
