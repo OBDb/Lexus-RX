@@ -9,13 +9,13 @@ test_cases:
     LEXUS_RM_INVRT_COOL_T: 22
   response: 7DA066210A63E2828
 - expected_values:
-    LEXUS_M_INVRT_MAX_T: 36
-    LEXUS_RM_INVRT_COOL_T: 25
-  response: 7DA066210A6414C4C
-- expected_values:
     LEXUS_M_INVRT_MAX_T: 49
     LEXUS_RM_INVRT_COOL_T: 27
   response: 7DA066210A6434459
+- expected_values:
+    LEXUS_M_INVRT_MAX_T: 41
+    LEXUS_RM_INVRT_COOL_T: 31
+  response: 7DA066210A6474E51
 - expected_values:
     LEXUS_M_INVRT_MAX_T: 45
     LEXUS_RM_INVRT_COOL_T: 43
