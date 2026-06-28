@@ -13,7 +13,7 @@ test_cases:
 - expected_values:
     LEXUS_RM_TQ_REQ: -6040
   response: |-
-    70810086210A268688A
+    70810086210A2686889
     708217F7F0000000000
 - expected_values:
     LEXUS_RM_TQ_REQ: -5526
