@@ -7,8 +7,8 @@ test_cases:
     LEXUS_TRANSAXLE_OIL_T: 64
   response: 7DA066210409AF068
 - expected_values:
-    LEXUS_TRANSAXLE_OIL_T: 62
-  response: 7DA066210409D0066
+    LEXUS_TRANSAXLE_OIL_T: 64
+  response: 7DA066210409B0068
 - expected_values:
     LEXUS_TRANSAXLE_OIL_T: 7
   response: 7DA06621040D9302F
