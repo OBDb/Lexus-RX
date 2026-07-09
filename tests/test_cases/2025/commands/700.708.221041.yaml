@@ -5,10 +5,10 @@ test_cases:
     LEXUS_ECT_INIT: 6.875
   response: 708056210414B4B
 - expected_values:
-    LEXUS_ECT_IGN: 66.25
+    LEXUS_ECT_IGN: 29.375
     LEXUS_ECT_INIT: 93.75
-  response: 70805621041AAD6
+  response: 708056210416FD6
 - expected_values:
-    LEXUS_ECT_IGN: 85.625
-    LEXUS_ECT_INIT: 85.625
-  response: 70805621041C9C9
+    LEXUS_ECT_IGN: 86.25
+    LEXUS_ECT_INIT: 84.375
+  response: 70805621041CAC7
