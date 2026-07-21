@@ -1,0 +1,8 @@
+command_id: 700.708.222827|f=2023-
+test_cases:
+- expected_values:
+    RX_ELECTRIC_WATER_PUMP: 0
+  response: '7080462282700'
+- expected_values:
+    RX_ELECTRIC_WATER_PUMP: 6000
+  response: '7080462282796'

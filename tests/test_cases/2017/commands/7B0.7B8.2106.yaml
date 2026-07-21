@@ -1,0 +1,42 @@
+command_id: 7B0.7B8.2106
+test_cases:
+- expected_values:
+    RX_YAW_RATE: -32
+    RX_YAW_RATE2: -18
+  response: 7B8056106606E6C
+- expected_values:
+    RX_YAW_RATE: -11
+    RX_YAW_RATE2: -20
+  response: 7B8056106756CC8
+- expected_values:
+    RX_YAW_RATE: -1
+    RX_YAW_RATE2: 0
+  response: 7B80561067F8000
+- expected_values:
+    RX_YAW_RATE: 0
+    RX_YAW_RATE2: 0
+  response: 7B80561068080FF
+- expected_values:
+    RX_YAW_RATE: 30
+    RX_YAW_RATE2: 19
+  response: 7B80561069E9383
+- expected_values:
+    RX_YAW_RATE: 39
+    RX_YAW_RATE2: 19
+  response: 7B8056106A79383
+- expected_values:
+    RX_YAW_RATE: -26
+    RX_YAW_RATE2: -26
+  response: 7B806610666667844
+- expected_values:
+    RX_YAW_RATE: -16
+    RX_YAW_RATE2: -16
+  response: 7B8066106707071FF
+- expected_values:
+    RX_YAW_RATE: 0
+    RX_YAW_RATE2: 0
+  response: 7B806610680808000
+- expected_values:
+    RX_YAW_RATE: 31
+    RX_YAW_RATE2: 31
+  response: 7B80661069F9F90FE

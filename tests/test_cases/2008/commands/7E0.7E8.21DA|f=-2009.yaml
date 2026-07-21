@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.21DA|f=-2009
+test_cases:
+- expected_values:
+    RX_GEAR_2NDGEN: 1
+  response: 7E80561DA010400
+- expected_values:
+    RX_GEAR_2NDGEN: 3
+  response: 7E80561DA030400
+- expected_values:
+    RX_GEAR_2NDGEN: 20
+  response: 7E80561DA140400

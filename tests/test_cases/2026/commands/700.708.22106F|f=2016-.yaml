@@ -1,0 +1,26 @@
+command_id: 700.708.22106F|f=2016-
+test_cases:
+- expected_values:
+    RX_INTAKE_VVT_TARGET_ANGLE_B1: 0
+  response: 7080562106F0000
+- expected_values:
+    RX_INTAKE_VVT_TARGET_ANGLE_B1: 11.1703
+  response: 7080562106F0478
+- expected_values:
+    RX_INTAKE_VVT_TARGET_ANGLE_B1: 19.99718
+  response: 7080562106F0800
+- expected_values:
+    RX_INTAKE_VVT_TARGET_ANGLE_B1: 24.99648
+  response: 7080562106F0A00
+- expected_values:
+    RX_INTAKE_VVT_TARGET_ANGLE_B1: 29.0584
+  response: 7080562106F0BA0
+- expected_values:
+    RX_INTAKE_VVT_TARGET_ANGLE_B1: 39.28157
+  response: 7080562106F0FB7
+- expected_values:
+    RX_INTAKE_VVT_TARGET_ANGLE_B1: 42.54283
+  response: 7080562106F1105
+- expected_values:
+    RX_INTAKE_VVT_TARGET_ANGLE_B1: 49.99295
+  response: 7080562106F1400

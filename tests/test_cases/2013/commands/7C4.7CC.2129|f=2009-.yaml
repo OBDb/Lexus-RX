@@ -1,0 +1,8 @@
+command_id: 7C4.7CC.2129|f=2009-
+test_cases:
+- expected_values:
+    RX_T_DRIVER: 0
+  response: 7CC03612900
+- expected_values:
+    RX_T_DRIVER: 54
+  response: 7CC03612936

@@ -1,0 +1,10 @@
+command_id: 7C4.2143|f=2009-
+test_cases:
+- expected_values:
+    RX_AIR_OUTLET_SERVO_ACTU_PULSE_D: 128
+    RX_AIR_OUTLET_SERVO_PULSE_D: 128
+  response: 7CC06614380800000
+- expected_values:
+    RX_AIR_OUTLET_SERVO_ACTU_PULSE_D: 128
+    RX_AIR_OUTLET_SERVO_PULSE_D: 128
+  response: 7CC06614380800300

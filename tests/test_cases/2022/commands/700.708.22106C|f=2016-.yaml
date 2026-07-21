@@ -1,0 +1,14 @@
+command_id: 700.708.22106C|f=2016-
+test_cases:
+- expected_values:
+    RX_DIST_SINCE_BAT_DISC: 2345
+  response: 7080562106C0929
+- expected_values:
+    RX_DIST_SINCE_BAT_DISC: 2346
+  response: 7080562106C092A
+- expected_values:
+    RX_DIST_SINCE_BAT_DISC: 2347
+  response: 7080562106C092B
+- expected_values:
+    RX_DIST_SINCE_BAT_DISC: 37193
+  response: 7080562106C9149

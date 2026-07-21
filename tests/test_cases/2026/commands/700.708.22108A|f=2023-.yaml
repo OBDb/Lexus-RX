@@ -1,0 +1,14 @@
+command_id: 700.708.22108A|f=2023-
+test_cases:
+- expected_values:
+    RX_VVT_IE_DUTY_RATIO_BANK_1: 0
+  response: 7080562108A7F5D
+- expected_values:
+    RX_VVT_IE_DUTY_RATIO_BANK_1: 0
+  response: 7080562108A8000
+- expected_values:
+    RX_VVT_IE_DUTY_RATIO_BANK_1: 24.94108
+  response: 7080562108A8FFF
+- expected_values:
+    RX_VVT_IE_DUTY_RATIO_BANK_1: 32.0317
+  response: 7080562108A9489

@@ -1,0 +1,11 @@
+command_id: 700.708.221074|f=2016-
+test_cases:
+- expected_values:
+    RX_EOP: 0
+  response: '708056210740000'
+- expected_values:
+    RX_EOP: 39.92188
+  response: 7080562107401FF
+- expected_values:
+    RX_EOP: 562.73438
+  response: 708056210741C23

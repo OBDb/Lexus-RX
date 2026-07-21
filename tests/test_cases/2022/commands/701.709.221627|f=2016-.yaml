@@ -1,0 +1,29 @@
+command_id: 701.709.221627|f=2016-
+test_cases:
+- expected_values:
+    RX_ATF_T_PAN_GEN3: 25
+  response: '709056216274100'
+- expected_values:
+    RX_ATF_T_PAN_GEN3: 29.375
+  response: '709056216274560'
+- expected_values:
+    RX_ATF_T_PAN_GEN3: 31.875
+  response: '7090562162747E0'
+- expected_values:
+    RX_ATF_T_PAN_GEN3: 33.75
+  response: 7090562162749C0
+- expected_values:
+    RX_ATF_T_PAN_GEN3: 36.25
+  response: 709056216274C40
+- expected_values:
+    RX_ATF_T_PAN_GEN3: 71.875
+  response: 709056216276FE0
+- expected_values:
+    RX_ATF_T_PAN_GEN3: 72.5
+  response: '709056216277080'
+- expected_values:
+    RX_ATF_T_PAN_GEN3: 73.125
+  response: '709056216277120'
+- expected_values:
+    RX_ATF_T_PAN_GEN3: 73.75
+  response: 7090562162771C0

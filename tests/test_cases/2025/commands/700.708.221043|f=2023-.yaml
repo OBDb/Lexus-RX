@@ -1,0 +1,14 @@
+command_id: 700.708.221043|f=2023-
+test_cases:
+- expected_values:
+    RX_EWP_RPM: 0
+    RX_EWP_TARGET_VSS: 0
+  response: '708056210430000'
+- expected_values:
+    RX_EWP_RPM: 5950
+    RX_EWP_TARGET_VSS: 3475
+  response: 708056210438BEE
+- expected_values:
+    RX_EWP_RPM: 150
+    RX_EWP_TARGET_VSS: 6000
+  response: 70805621043F006

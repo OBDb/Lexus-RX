@@ -1,0 +1,20 @@
+command_id: 701.709.220103|f=2016-
+test_cases:
+- expected_values:
+    RX_ODO: 58286
+  response: 709076201030100E3AE
+- expected_values:
+    RX_ODO: 132323
+  response: '70907620103010204E3'
+- expected_values:
+    RX_ODO: 60140
+  response: 709076201030200EAEC
+- expected_values:
+    RX_ODO: 60174
+  response: 709076201030200EB0E
+- expected_values:
+    RX_ODO: 67327
+  response: 70907620103020106FF
+- expected_values:
+    RX_ODO: 67328
+  response: '7090762010302010700'

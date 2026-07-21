@@ -1,0 +1,29 @@
+command_id: 700.708.221017|f=2016-
+test_cases:
+- expected_values:
+    RX_INJ_VOL: 0.68219
+  response: '708056210170887'
+- expected_values:
+    RX_INJ_VOL: 0.92156
+  response: 708056210170B85
+- expected_values:
+    RX_INJ_VOL: 0.95281
+  response: 708056210170BE9
+- expected_values:
+    RX_INJ_VOL: 0.98031
+  response: 708056210170C41
+- expected_values:
+    RX_INJ_VOL: 1.02875
+  response: 708056210170CDC
+- expected_values:
+    RX_INJ_VOL: 1.05125
+  response: 708056210170D24
+- expected_values:
+    RX_INJ_VOL: 1.09531
+  response: 708056210170DB1
+- expected_values:
+    RX_INJ_VOL: 1.28812
+  response: 70805621017101A
+- expected_values:
+    RX_INJ_VOL: 2.19312
+  response: 708056210171B6A

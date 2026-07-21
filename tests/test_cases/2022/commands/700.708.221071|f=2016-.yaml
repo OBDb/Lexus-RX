@@ -1,0 +1,14 @@
+command_id: 700.708.221071|f=2016-
+test_cases:
+- expected_values:
+    RX_EXHAUST_VVT_TARGET_ANGLE_B1: 0
+  response: '708056210710000'
+- expected_values:
+    RX_EXHAUST_VVT_TARGET_ANGLE_B1: 24.14699
+  response: 7080562107109A9
+- expected_values:
+    RX_EXHAUST_VVT_TARGET_ANGLE_B1: 39.77955
+  response: 708056210710FEA
+- expected_values:
+    RX_EXHAUST_VVT_TARGET_ANGLE_B1: 41.13678
+  response: '708056210711075'

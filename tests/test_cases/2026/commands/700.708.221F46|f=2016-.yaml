@@ -1,0 +1,29 @@
+command_id: 700.708.221F46|f=2016-
+test_cases:
+- expected_values:
+    RX_AMBIENT_T: 31
+  response: 70804621F4647
+- expected_values:
+    RX_AMBIENT_T: 32
+  response: 70804621F4648
+- expected_values:
+    RX_AMBIENT_T: 33
+  response: 70804621F4649
+- expected_values:
+    RX_AMBIENT_T: 34
+  response: 70804621F464A
+- expected_values:
+    RX_AMBIENT_T: 35
+  response: 70804621F464B
+- expected_values:
+    RX_AMBIENT_T: 36
+  response: 70804621F464C
+- expected_values:
+    RX_AMBIENT_T: 38
+  response: 70804621F464E
+- expected_values:
+    RX_AMBIENT_T: 39
+  response: 70804621F464F
+- expected_values:
+    RX_AMBIENT_T: 44
+  response: 70804621F4654

@@ -1,0 +1,14 @@
+command_id: 700.708.221089|f=2016-
+test_cases:
+- expected_values:
+    RX_EXHAUST_VVT_HOLD_LEARN_VALUE_1: 44.27061
+  response: 708056210891C57
+- expected_values:
+    RX_EXHAUST_VVT_HOLD_LEARN_VALUE_1: 46.85789
+  response: 708056210891DFF
+- expected_values:
+    RX_EXHAUST_VVT_HOLD_LEARN_VALUE_1: 46.864
+  response: '708056210891E00'
+- expected_values:
+    RX_EXHAUST_VVT_HOLD_LEARN_VALUE_1: 52.10569
+  response: 70805621089215B

@@ -1,0 +1,8 @@
+command_id: 700.708.221F5C|f=2016-
+test_cases:
+- expected_values:
+    RX_EOT_V2_V2: 7
+  response: 70804621F5C2F
+- expected_values:
+    RX_EOT_V2_V2: 100
+  response: 70804621F5C8C

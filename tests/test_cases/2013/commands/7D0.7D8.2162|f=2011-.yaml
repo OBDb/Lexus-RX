@@ -1,0 +1,25 @@
+command_id: 7D0.7D8.2162|f=2011-
+test_cases:
+- expected_values:
+    RX_PARKING_BRAKE: 1
+  response: '7D8 04 61 62 19 00 '
+- expected_values:
+    RX_PARKING_BRAKE: 1
+  response: 7D80461620100
+- expected_values:
+    RX_PARKING_BRAKE: 1
+  response: |-
+    7D80461620100
+    7C603A81384
+    7C603A81384
+    7C603A81384
+    7C603A81181
+    7CE1008E81181044100
+    7C6300100
+    7CE2105080000000000
+- expected_values:
+    RX_PARKING_BRAKE: 1
+  response: 7D80461620175
+- expected_values:
+    RX_PARKING_BRAKE: 1
+  response: 7D80461621D00

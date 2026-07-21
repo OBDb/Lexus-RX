@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2128|f=-2008
+test_cases:
+- expected_values:
+    RX_ODO_2NDGEN: 8101729
+  response: 7E80661287B9F615B
+- expected_values:
+    RX_ODO_2NDGEN: 8224612
+  response: 7E80661287D7F645D
+- expected_values:
+    RX_ODO_2NDGEN: 8379495
+  response: 7E80661287FDC67AF
+- expected_values:
+    RX_ODO_2NDGEN: 8383081
+  response: 7E80661287FEA6999
+- expected_values:
+    RX_ODO_2NDGEN: 8405352
+  response: 7E8066128804168E5

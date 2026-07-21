@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.220103|fc=1,f=2023-
+test_cases:
+- expected_values:
+    RX_ODO_V2_V2: 159
+  response: 7DA076201030200009F

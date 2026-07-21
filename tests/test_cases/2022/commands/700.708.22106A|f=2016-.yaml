@@ -1,0 +1,32 @@
+command_id: 700.708.22106A|f=2016-
+test_cases:
+- expected_values:
+    RX_FP_DUTY_RATIO: 223.35366
+  response: 7080562106A0E4F
+- expected_values:
+    RX_FP_DUTY_RATIO: 223.41463
+  response: 7080562106A0E50
+- expected_values:
+    RX_FP_DUTY_RATIO: 223.59756
+  response: 7080562106A0E53
+- expected_values:
+    RX_FP_DUTY_RATIO: 225.12195
+  response: 7080562106A0E6C
+- expected_values:
+    RX_FP_DUTY_RATIO: 229.87805
+  response: 7080562106A0EBA
+- expected_values:
+    RX_FP_DUTY_RATIO: 243.23171
+  response: 7080562106A0F95
+- expected_values:
+    RX_FP_DUTY_RATIO: 244.5122
+  response: 7080562106A0FAA
+- expected_values:
+    RX_FP_DUTY_RATIO: 244.87805
+  response: 7080562106A0FB0
+- expected_values:
+    RX_FP_DUTY_RATIO: 245
+  response: 7080562106A0FB2
+- expected_values:
+    RX_FP_DUTY_RATIO: 245.85366
+  response: 7080562106A0FC0

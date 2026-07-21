@@ -1,0 +1,11 @@
+command_id: 701.709.220103|f=2016-
+test_cases:
+- expected_values:
+    RX_ODO: 23573
+  response: 7090762010302005C15
+- expected_values:
+    RX_ODO: 76493
+  response: 7090762010302012ACD
+- expected_values:
+    RX_ODO: 76494
+  response: 7090762010302012ACE

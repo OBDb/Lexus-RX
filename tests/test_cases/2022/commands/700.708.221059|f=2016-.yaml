@@ -1,0 +1,27 @@
+command_id: 700.708.221059|f=2016-
+test_cases:
+- expected_values:
+    RX_ACCEL_PEDAL: 0
+  response: |-
+    708100A621059285128
+    7082151000000000000
+- expected_values:
+    RX_ACCEL_PEDAL: 0
+  response: |-
+    708100A621059295129
+    7082151000000000000
+- expected_values:
+    RX_ACCEL_PEDAL: 2.66197
+  response: |-
+    708100A6210593E6729
+    70821520B0F00000000
+- expected_values:
+    RX_ACCEL_PEDAL: 9.70423
+  response: |-
+    708100A621059487129
+    7082152106600000000
+- expected_values:
+    RX_ACCEL_PEDAL: 12.52113
+  response: |-
+    708100A6210594C7528
+    7082152129C00000000
