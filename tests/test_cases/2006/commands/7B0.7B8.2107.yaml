@@ -1,0 +1,17 @@
+command_id: 7B0.7B8.2107
+test_cases:
+- expected_values:
+    RX_WHEEL_CYLINDER_PRESSURE: 0.47059
+  response: 7B806610718191818
+- expected_values:
+    RX_WHEEL_CYLINDER_PRESSURE: 0.47059
+  response: 7B806610718191918
+- expected_values:
+    RX_WHEEL_CYLINDER_PRESSURE: 0.4902
+  response: 7B8066107191A1918
+- expected_values:
+    RX_WHEEL_CYLINDER_PRESSURE: 0.4902
+  response: 7B8066107191A1A19
+- expected_values:
+    RX_WHEEL_CYLINDER_PRESSURE: 0.66667
+  response: 7B806610722232221

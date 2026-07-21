@@ -1,0 +1,11 @@
+command_id: 700.708.221621|f=2016-
+test_cases:
+- expected_values:
+    RX_GEAR_V2: 1
+  response: '7080462162101'
+- expected_values:
+    RX_GEAR_V2: 3
+  response: '7080462162103'
+- expected_values:
+    RX_GEAR_V2: 6
+  response: '7080462162106'

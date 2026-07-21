@@ -1,0 +1,32 @@
+command_id: 700.708.221074|f=2016-
+test_cases:
+- expected_values:
+    RX_EOP: 0
+  response: '708056210740000'
+- expected_values:
+    RX_EOP: 105.46875
+  response: '708056210740546'
+- expected_values:
+    RX_EOP: 106.48438
+  response: '708056210740553'
+- expected_values:
+    RX_EOP: 107.57812
+  response: '708056210740561'
+- expected_values:
+    RX_EOP: 109.6875
+  response: 70805621074057C
+- expected_values:
+    RX_EOP: 110
+  response: '708056210740580'
+- expected_values:
+    RX_EOP: 111.71875
+  response: '708056210740596'
+- expected_values:
+    RX_EOP: 115.23438
+  response: 7080562107405C3
+- expected_values:
+    RX_EOP: 131.25
+  response: '708056210740690'
+- expected_values:
+    RX_EOP: 253.35938
+  response: 708056210740CAB

@@ -1,0 +1,11 @@
+command_id: 700.708.221F2F|f=2016-
+test_cases:
+- expected_values:
+    RX_FLI: 87.84314
+  response: 70804621F2FE0
+- expected_values:
+    RX_FLI: 89.80392
+  response: 70804621F2FE5
+- expected_values:
+    RX_FLI: 95.29412
+  response: 70804621F2FF3

@@ -1,0 +1,8 @@
+command_id: 7D2.221F5B|fc=1,f=2023-
+test_cases:
+- expected_values:
+    RX_SOC: 39.21569
+  response: 7DA04621F5B64
+- expected_values:
+    RX_SOC: 51.76471
+  response: 7DA04621F5B84

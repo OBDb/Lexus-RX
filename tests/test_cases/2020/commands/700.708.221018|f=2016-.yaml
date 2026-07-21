@@ -1,0 +1,14 @@
+command_id: 700.708.221018|f=2016-
+test_cases:
+- expected_values:
+    RX_INJECTOR_PORT: 1.47
+  response: 7080562101805BE
+- expected_values:
+    RX_INJECTOR_PORT: 1.535
+  response: 7080562101805FF
+- expected_values:
+    RX_INJECTOR_PORT: 1.792
+  response: '708056210180700'
+- expected_values:
+    RX_INJECTOR_PORT: 11.942
+  response: 708056210182EA6

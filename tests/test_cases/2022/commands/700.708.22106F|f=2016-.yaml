@@ -1,0 +1,14 @@
+command_id: 700.708.22106F|f=2016-
+test_cases:
+- expected_values:
+    RX_INTAKE_VVT_TARGET_ANGLE_B1: 5.93666
+  response: 7080562106F0260
+- expected_values:
+    RX_INTAKE_VVT_TARGET_ANGLE_B1: 19.99718
+  response: 7080562106F0800
+- expected_values:
+    RX_INTAKE_VVT_TARGET_ANGLE_B1: 20.37799
+  response: 7080562106F0827
+- expected_values:
+    RX_INTAKE_VVT_TARGET_ANGLE_B1: 29.99577
+  response: 7080562106F0C00

@@ -1,0 +1,23 @@
+command_id: 7B0.7B8.2146
+test_cases:
+- expected_values:
+    RX_ZP_DEC: -25.11
+    RX_ZP_DEC2: -25.11
+    RX_ZP_YAW_RATE: -3
+  response: |-
+    7B81009614600007D80
+    7B82100FF0200000000
+- expected_values:
+    RX_ZP_DEC: -25.11
+    RX_ZP_DEC2: -25.11
+    RX_ZP_YAW_RATE: -3
+  response: |-
+    7B81009614600007D80
+    7B82100FF0300000000
+- expected_values:
+    RX_ZP_DEC: -25.11
+    RX_ZP_DEC2: -25.11
+    RX_ZP_YAW_RATE: -3
+  response: |-
+    7B81009614600007D80
+    7B82100FF0400000000

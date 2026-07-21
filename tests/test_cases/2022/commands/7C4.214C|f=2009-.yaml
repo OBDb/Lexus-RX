@@ -1,0 +1,14 @@
+command_id: 7C4.214C|f=2009-
+test_cases:
+- expected_values:
+    RX_EVAP_TARGET_T: 1
+  response: 7CC04614C8064
+- expected_values:
+    RX_EVAP_TARGET_T: 1.5
+  response: 7CC04614C8096
+- expected_values:
+    RX_EVAP_TARGET_T: 2.3
+  response: 7CC04614C80E6
+- expected_values:
+    RX_EVAP_TARGET_T: 2.9
+  response: 7CC04614C8122

@@ -1,0 +1,11 @@
+command_id: 7C4.7CC.213D|f=2009-
+test_cases:
+- expected_values:
+    RX_ADJUSTED_AMBIENT_T: 22
+  response: 7CC03613DA5
+- expected_values:
+    RX_ADJUSTED_AMBIENT_T: 22.32
+  response: 7CC03613DA6
+- expected_values:
+    RX_ADJUSTED_AMBIENT_T: 25.84
+  response: 7CC03613DB1

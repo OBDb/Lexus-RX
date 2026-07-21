@@ -1,0 +1,8 @@
+command_id: 7C4.7CC.2121|f=2009-
+test_cases:
+- expected_values:
+    RX_CABIN_T: 14.25
+  response: 7CC03612153
+- expected_values:
+    RX_CABIN_T: 42.25
+  response: 7CC036121C3

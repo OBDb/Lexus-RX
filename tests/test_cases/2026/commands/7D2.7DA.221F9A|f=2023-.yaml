@@ -1,0 +1,38 @@
+command_id: 7D2.7DA.221F9A|f=2023-
+test_cases:
+- expected_values:
+    RX_HVBAT_C: 0
+    RX_HVBAT_V: 267
+  response: |-
+    7DA1009621F9A0E0042
+    7DA21C0000000000000
+- expected_values:
+    RX_HVBAT_C: 4.2
+    RX_HVBAT_V: 268
+  response: |-
+    7DA1009621F9A0E0043
+    7DA2100002A00000000
+- expected_values:
+    RX_HVBAT_C: -6.3
+    RX_HVBAT_V: 268
+  response: |-
+    7DA1009621F9A0E0043
+    7DA2100FFC100000000
+- expected_values:
+    RX_HVBAT_C: 4.7
+    RX_HVBAT_V: 271
+  response: |-
+    7DA1009621F9A0E0043
+    7DA21C0002F00000000
+- expected_values:
+    RX_HVBAT_C: -3.9
+    RX_HVBAT_V: 283
+  response: |-
+    7DA1009621F9A0E0046
+    7DA21C0FFD900000000
+- expected_values:
+    RX_HVBAT_C: -10.5
+    RX_HVBAT_V: 300
+  response: |-
+    7DA1009621F9A0E004B
+    7DA2100FF9700000000

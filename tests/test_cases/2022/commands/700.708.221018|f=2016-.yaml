@@ -1,0 +1,32 @@
+command_id: 700.708.221018|f=2016-
+test_cases:
+- expected_values:
+    RX_INJECTOR_PORT: 2.738
+  response: 708056210180AB2
+- expected_values:
+    RX_INJECTOR_PORT: 2.913
+  response: 708056210180B61
+- expected_values:
+    RX_INJECTOR_PORT: 3.043
+  response: 708056210180BE3
+- expected_values:
+    RX_INJECTOR_PORT: 3.244
+  response: 708056210180CAC
+- expected_values:
+    RX_INJECTOR_PORT: 3.456
+  response: 708056210180D80
+- expected_values:
+    RX_INJECTOR_PORT: 3.531
+  response: 708056210180DCB
+- expected_values:
+    RX_INJECTOR_PORT: 3.906
+  response: 708056210180F42
+- expected_values:
+    RX_INJECTOR_PORT: 4.194
+  response: '708056210181062'
+- expected_values:
+    RX_INJECTOR_PORT: 4.448
+  response: '708056210181160'
+- expected_values:
+    RX_INJECTOR_PORT: 5.517
+  response: 70805621018158D
