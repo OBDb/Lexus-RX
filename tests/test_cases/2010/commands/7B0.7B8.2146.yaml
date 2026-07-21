@@ -1,0 +1,51 @@
+command_id: 7B0.7B8.2146
+test_cases:
+- expected_values:
+    RX_ZP_DEC: -25.11
+    RX_ZP_DEC2: -25.11
+    RX_ZP_YAW_RATE: 0
+  response: |-
+    7B8100961460000807F
+    7B821AA381F00000000
+- expected_values:
+    RX_ZP_DEC: -25.11
+    RX_ZP_DEC2: -25.11
+    RX_ZP_YAW_RATE: 0
+  response: |-
+    7B8100961460000807F
+    7B821B1381700000000
+- expected_values:
+    RX_ZP_DEC: -25.11
+    RX_ZP_DEC2: -25.11
+    RX_ZP_YAW_RATE: 0
+  response: |-
+    7B8100961460000807F
+    7B821B93A1F00000000
+- expected_values:
+    RX_ZP_DEC: -25.11
+    RX_ZP_DEC2: -25.11
+    RX_ZP_YAW_RATE: 0
+  response: |-
+    7B8100961460000807F
+    7B821BF381F00000000
+- expected_values:
+    RX_ZP_DEC: -25.11
+    RX_ZP_DEC2: -25.11
+    RX_ZP_YAW_RATE: 0
+  response: |-
+    7B8100961460000807F
+    7B821C0381700000000
+- expected_values:
+    RX_ZP_DEC: -25.11
+    RX_ZP_DEC2: -25.11
+    RX_ZP_YAW_RATE: 0
+  response: |-
+    7B8100961460000807F
+    7B821D5381F00000000
+- expected_values:
+    RX_ZP_DEC: -25.11
+    RX_ZP_DEC2: -25.11
+    RX_ZP_YAW_RATE: 0
+  response: |-
+    7B81009614600008080
+    7B82100381B00000000

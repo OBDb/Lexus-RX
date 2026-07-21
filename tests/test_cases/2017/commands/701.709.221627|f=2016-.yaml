@@ -1,0 +1,11 @@
+command_id: 701.709.221627|f=2016-
+test_cases:
+- expected_values:
+    RX_ATF_T_PAN_GEN3: 0
+  response: '709056216272800'
+- expected_values:
+    RX_ATF_T_PAN_GEN3: 6.875
+  response: 709056216272EE0
+- expected_values:
+    RX_ATF_T_PAN_GEN3: 87.5
+  response: 709056216277F80

@@ -1,0 +1,10 @@
+command_id: 700.708.221041|f=2016-
+test_cases:
+- expected_values:
+    RX_ECT_IGN: 9.375
+    RX_ECT_INIT: 9.375
+  response: 708056210414F4F
+- expected_values:
+    RX_ECT_IGN: 98.125
+    RX_ECT_INIT: 98.125
+  response: 70805621041DDDD

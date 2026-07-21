@@ -1,0 +1,104 @@
+command_id: 7D2.7DA.2210A1|f=2023-
+test_cases:
+- expected_values:
+    RX_RPM: -552
+    RX_TQ: -3.5
+  response: |-
+    7DA100C6210A17DD87F
+    7DA21E003007FE40400
+- expected_values:
+    RX_RPM: -468
+    RX_TQ: -36.25
+  response: |-
+    7DA100C6210A17E2C7E
+    7DA21FC03007EDE0400
+- expected_values:
+    RX_RPM: -444
+    RX_TQ: -42.125
+  response: |-
+    7DA100C6210A17E447E
+    7DA21B203007EAF0400
+- expected_values:
+    RX_RPM: -406
+    RX_TQ: -50
+  response: |-
+    7DA100C6210A17E6A7E
+    7DA216903007E700400
+- expected_values:
+    RX_RPM: -394
+    RX_TQ: -65.875
+  response: |-
+    7DA100C6210A17E767E
+    7DA210B03007DF10400
+- expected_values:
+    RX_RPM: -375
+    RX_TQ: -16.125
+  response: |-
+    7DA100C6210A17E897F
+    7DA217F03007F7F0400
+- expected_values:
+    RX_RPM: -257
+    RX_TQ: -22.75
+  response: |-
+    7DA100C6210A17EFF7F
+    7DA214703007F4A0400
+- expected_values:
+    RX_RPM: -256
+    RX_TQ: -26
+  response: |-
+    7DA100C6210A17F007F
+    7DA212F03007F300400
+- expected_values:
+    RX_RPM: -39
+    RX_TQ: 1
+  response: |-
+    7DA100C6210A17FD980
+    7DA2122030080080400
+- expected_values:
+    RX_RPM: -15
+    RX_TQ: -1.75
+  response: |-
+    7DA100C6210A17FF17F
+    7DA21F003007FF20400
+- expected_values:
+    RX_RPM: -5
+    RX_TQ: 0
+  response: |-
+    7DA100C6210A17FFB80
+    7DA2100030080000000
+- expected_values:
+    RX_RPM: 602
+    RX_TQ: 191.625
+  response: |-
+    7DA100C6210A1825A85
+    7DA21E5020085FD0400
+- expected_values:
+    RX_RPM: 1311
+    RX_TQ: -124.375
+  response: |-
+    7DA100C6210A1851F7B
+    7DA21F403007C1D0400
+- expected_values:
+    RX_RPM: 1606
+    RX_TQ: 213.125
+  response: |-
+    7DA100C6210A1864686
+    7DA2148020086A90400
+- expected_values:
+    RX_RPM: 1801
+    RX_TQ: -48.125
+  response: |-
+    7DA100C6210A187097E
+    7DA216204007E7F0400
+- expected_values:
+    RX_RPM: 3613
+    RX_TQ: 75.625
+  response: |-
+    7DA100C6210A18E1D82
+    7DA21560402825D0400
+- expected_values:
+    RX_RPM: 11827
+    RX_TQ: -10.375
+  response: |-
+    7DA100C6210A1AE337F
+    7DA21A504027FAD0400

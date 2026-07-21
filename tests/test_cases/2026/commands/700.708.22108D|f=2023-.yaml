@@ -1,0 +1,5 @@
+command_id: 700.708.22108D|f=2023-
+test_cases:
+- expected_values:
+    RX_INTAKE_VVT_OVER_RET_LEARN_B1: 31.66014
+  response: 7080562108D0CAA

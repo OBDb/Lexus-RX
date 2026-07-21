@@ -1,50 +1,56 @@
 command_id: 7B0.7B8.2147
 test_cases:
 - expected_values:
-    LEXUS_LAT_G: 0
-    LEXUS_LNG_G: 0.02
-    LEXUS_STEERING_ANGLE: -4.3
-    LEXUS_STEER_ANGLE: -4.3
-    LEXUS_YAW: 0
-    LEXUS_YAW_RATE: 0
-  response: 7B80761470001807FD5
+    RX_LAT_G: 0
+    RX_LNG_G: 0
+    RX_STEER_ANGLE: -91.7
+    RX_YAW_RATE3: -6
+  response: 7B807614700007A7C6B
 - expected_values:
-    LEXUS_LAT_G: 0
-    LEXUS_LNG_G: -0.04
-    LEXUS_STEERING_ANGLE: -0.6
-    LEXUS_STEER_ANGLE: -0.6
-    LEXUS_YAW: 0
-    LEXUS_YAW_RATE: 0
-  response: 7B807614700FE807FFA
+    RX_LAT_G: 0
+    RX_LNG_G: 0
+    RX_STEER_ANGLE: -0.1
+    RX_YAW_RATE3: 0
+  response: 7B80761470000807FFF
 - expected_values:
-    LEXUS_LAT_G: 0
-    LEXUS_LNG_G: -0.02
-    LEXUS_STEERING_ANGLE: -2.1
-    LEXUS_STEER_ANGLE: -2.1
-    LEXUS_YAW: 0
-    LEXUS_YAW_RATE: 0
-  response: 7B807614700FF807FEB
+    RX_LAT_G: 0
+    RX_LNG_G: 0
+    RX_STEER_ANGLE: 0
+    RX_YAW_RATE3: 0
+  response: 7B80761470000808000
 - expected_values:
-    LEXUS_LAT_G: 0.02
-    LEXUS_LNG_G: 0.04
-    LEXUS_STEERING_ANGLE: 2.3
-    LEXUS_STEER_ANGLE: 2.3
-    LEXUS_YAW: 0
-    LEXUS_YAW_RATE: 0
-  response: 7B80761470102808017
+    RX_LAT_G: 0
+    RX_LNG_G: 0.02
+    RX_STEER_ANGLE: 491.2
+    RX_YAW_RATE3: 0
+  response: 7B80761470001809330
 - expected_values:
-    LEXUS_LAT_G: 0.04
-    LEXUS_LNG_G: 0.04
-    LEXUS_STEERING_ANGLE: 272.7
-    LEXUS_STEER_ANGLE: 272.7
-    LEXUS_YAW: 9
-    LEXUS_YAW_RATE: 9
-  response: 7B80761470202898AA7
+    RX_LAT_G: 0
+    RX_LNG_G: -0.1
+    RX_STEER_ANGLE: -490.5
+    RX_YAW_RATE3: 12
+  response: 7B807614700FB8C6CD7
 - expected_values:
-    LEXUS_LAT_G: -0.02
-    LEXUS_LNG_G: 0.02
-    LEXUS_STEERING_ANGLE: -1.5
-    LEXUS_STEER_ANGLE: -1.5
-    LEXUS_YAW: 0
-    LEXUS_YAW_RATE: 0
-  response: 7B8076147FF01807FF1
+    RX_LAT_G: 0
+    RX_LNG_G: -0.02
+    RX_STEER_ANGLE: -491.6
+    RX_YAW_RATE3: -16
+  response: 7B807614700FF706CCC
+- expected_values:
+    RX_LAT_G: 0.4
+    RX_LNG_G: -0.04
+    RX_STEER_ANGLE: 407.3
+    RX_YAW_RATE3: 45
+  response: 7B807614714FEAD8FE9
+- expected_values:
+    RX_LAT_G: -0.3
+    RX_LNG_G: -0.14
+    RX_STEER_ANGLE: -493.4
+    RX_YAW_RATE3: -41
+  response: 7B8076147F1F9576CBA
+- expected_values:
+    RX_LAT_G: -0.02
+    RX_LNG_G: 0
+    RX_STEER_ANGLE: -99.6
+    RX_YAW_RATE3: -6
+  response: 7B8076147FF007A7C1C

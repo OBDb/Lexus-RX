@@ -1,0 +1,26 @@
+command_id: 7B0.7B8.2106
+test_cases:
+- expected_values:
+    RX_YAW_RATE: -37
+    RX_YAW_RATE2: -37
+  response: 7B80661065B5B750B
+- expected_values:
+    RX_YAW_RATE: -18
+    RX_YAW_RATE2: -18
+  response: 7B80661066E6E6CAA
+- expected_values:
+    RX_YAW_RATE: -13
+    RX_YAW_RATE2: -13
+  response: 7B806610673739455
+- expected_values:
+    RX_YAW_RATE: 0
+    RX_YAW_RATE2: 0
+  response: 7B806610680808000
+- expected_values:
+    RX_YAW_RATE: 0
+    RX_YAW_RATE2: 0
+  response: 7B8066106808080FF
+- expected_values:
+    RX_YAW_RATE: 40
+    RX_YAW_RATE2: 40
+  response: 7B8066106A8A88D98

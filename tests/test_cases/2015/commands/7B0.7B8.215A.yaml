@@ -1,0 +1,29 @@
+command_id: 7B0.7B8.215A
+test_cases:
+- expected_values:
+    RX_FL_WHEEL_VSC: 0
+    RX_FR_WHEEL_VSC: 0
+    RX_RL_WHEEL_VSC: 0
+    RX_RR_WHEEL_VSC: 0
+    RX_TRC_TRAC: 0
+    RX_TRC_TRAC_BRAKE: 0
+    RX_TRC_TRAC_ENGINE: 0
+  response: 7B804615A0000
+- expected_values:
+    RX_FL_WHEEL_VSC: 0
+    RX_FR_WHEEL_VSC: 0
+    RX_RL_WHEEL_VSC: 0
+    RX_RR_WHEEL_VSC: 0
+    RX_TRC_TRAC: 0
+    RX_TRC_TRAC_BRAKE: 0
+    RX_TRC_TRAC_ENGINE: 0
+  response: 7B804615A1000
+- expected_values:
+    RX_FL_WHEEL_VSC: 0
+    RX_FR_WHEEL_VSC: 0
+    RX_RL_WHEEL_VSC: 0
+    RX_RR_WHEEL_VSC: 0
+    RX_TRC_TRAC: 0
+    RX_TRC_TRAC_BRAKE: 0
+    RX_TRC_TRAC_ENGINE: 0
+  response: 7B804615A1800

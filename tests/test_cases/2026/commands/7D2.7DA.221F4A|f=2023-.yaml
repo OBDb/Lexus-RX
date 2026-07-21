@@ -1,0 +1,17 @@
+command_id: 7D2.7DA.221F4A|f=2023-
+test_cases:
+- expected_values:
+    RX_ACC_PEDAL_POS_2: 31.76471
+  response: 7DA04621F4A51
+- expected_values:
+    RX_ACC_PEDAL_POS_2: 40
+  response: 7DA04621F4A66
+- expected_values:
+    RX_ACC_PEDAL_POS_2: 42.7451
+  response: 7DA04621F4A6D
+- expected_values:
+    RX_ACC_PEDAL_POS_2: 43.52941
+  response: 7DA04621F4A6F
+- expected_values:
+    RX_ACC_PEDAL_POS_2: 46.27451
+  response: 7DA04621F4A76

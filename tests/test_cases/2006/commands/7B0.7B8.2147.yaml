@@ -1,0 +1,98 @@
+command_id: 7B0.7B8.2147
+test_cases:
+- expected_values:
+    RX_LAT_G: 0
+    RX_LNG_G: 0.06
+    RX_STEER_ANGLE: 11.9
+    RX_YAW_RATE3: 0
+  response: |-
+    7B81009614700038080
+    7B82177000400000000
+- expected_values:
+    RX_LAT_G: 0
+    RX_LNG_G: -0.12
+    RX_STEER_ANGLE: 11.6
+    RX_YAW_RATE3: 1
+  response: |-
+    7B81009614700FA8180
+    7B8217400FC00000000
+- expected_values:
+    RX_LAT_G: 0
+    RX_LNG_G: -0.04
+    RX_STEER_ANGLE: 7.3
+    RX_YAW_RATE3: 0
+  response: |-
+    7B81009614700FE8080
+    7B82149000000000000
+- expected_values:
+    RX_LAT_G: 0.02
+    RX_LNG_G: -0.02
+    RX_STEER_ANGLE: -4.5
+    RX_YAW_RATE3: 0
+  response: |-
+    7B81009614701FF807F
+    7B821D3000100000000
+- expected_values:
+    RX_LAT_G: 0.02
+    RX_LNG_G: -0.02
+    RX_STEER_ANGLE: 39
+    RX_YAW_RATE3: 5
+  response: |-
+    7B81009614701FF8581
+    7B82186000000000000
+- expected_values:
+    RX_LAT_G: 0.12
+    RX_LNG_G: -0.08
+    RX_STEER_ANGLE: 47.7
+    RX_YAW_RATE3: 8
+  response: |-
+    7B81009614706FC8881
+    7B821DD00FE00000000
+- expected_values:
+    RX_LAT_G: -0.1
+    RX_LNG_G: 0
+    RX_STEER_ANGLE: -68.9
+    RX_YAW_RATE3: -8
+  response: |-
+    7B810096147FB00787D
+    7B8214F000000000000
+- expected_values:
+    RX_LAT_G: -0.1
+    RX_LNG_G: 0.16
+    RX_STEER_ANGLE: -289.3
+    RX_YAW_RATE3: -21
+  response: |-
+    7B810096147FB086B74
+    7B821B3000900000000
+- expected_values:
+    RX_LAT_G: -0.06
+    RX_LNG_G: -0.02
+    RX_STEER_ANGLE: -6.3
+    RX_YAW_RATE3: 0
+  response: |-
+    7B810096147FDFF807F
+    7B821C1000000000000
+- expected_values:
+    RX_LAT_G: -0.06
+    RX_LNG_G: -0.02
+    RX_STEER_ANGLE: -3
+    RX_YAW_RATE3: 0
+  response: |-
+    7B810096147FDFF807F
+    7B821E2000000000000
+- expected_values:
+    RX_LAT_G: -0.04
+    RX_LNG_G: 0.02
+    RX_STEER_ANGLE: 1.7
+    RX_YAW_RATE3: 0
+  response: |-
+    7B810096147FE018080
+    7B82111000200000000
+- expected_values:
+    RX_LAT_G: -0.02
+    RX_LNG_G: 0.08
+    RX_STEER_ANGLE: -7.5
+    RX_YAW_RATE3: 0
+  response: |-
+    7B810096147FF04807F
+    7B821B5000400000000

@@ -1,0 +1,8 @@
+command_id: 7C4.7CC.2126|f=2009-
+test_cases:
+- expected_values:
+    RX_ECT: 32.45
+  response: 7CC03612659
+- expected_values:
+    RX_ECT: 89.5
+  response: 7CC036126FC

@@ -1,0 +1,29 @@
+command_id: 700.708.221F3E|f=2016-
+test_cases:
+- expected_values:
+    RX_CAT_T_BANK_1_SENSOR_2: 86.1
+  response: 70805621F3E04ED
+- expected_values:
+    RX_CAT_T_BANK_1_SENSOR_2: 122.6
+  response: 70805621F3E065A
+- expected_values:
+    RX_CAT_T_BANK_1_SENSOR_2: 131.8
+  response: 70805621F3E06B6
+- expected_values:
+    RX_CAT_T_BANK_1_SENSOR_2: 141.7
+  response: 70805621F3E0719
+- expected_values:
+    RX_CAT_T_BANK_1_SENSOR_2: 156.1
+  response: 70805621F3E07A9
+- expected_values:
+    RX_CAT_T_BANK_1_SENSOR_2: 217.5
+  response: 70805621F3E0A0F
+- expected_values:
+    RX_CAT_T_BANK_1_SENSOR_2: 332.9
+  response: 70805621F3E0E91
+- expected_values:
+    RX_CAT_T_BANK_1_SENSOR_2: 357.4
+  response: 70805621F3E0F86
+- expected_values:
+    RX_CAT_T_BANK_1_SENSOR_2: 364.4
+  response: 70805621F3E0FCC
