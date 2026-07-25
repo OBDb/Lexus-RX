@@ -611,7 +611,7 @@
     {"id": "RX_LOW_RPM_START",     "path": "Engine",       "fmt": {"bix": 236, "len": 1,  "max": 1,                                                        "unit": "offon"        }, "name": "Low revolution for engine start"},
     {"id": "RX_ENG_START_HESIT",   "path": "Engine",       "fmt": {"bix": 237, "len": 1,  "max": 1,                                                        "unit": "offon"        }, "name": "Engine start hesitation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "C1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "C1"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "RX_CYLINDER_NUMBER", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 255,                            "unit": "scalar" }, "name": "Cylinder number"},
     {"id": "RX_DESTINATION",     "path": "Engine", "fmt": {"bix": 120, "len": 8, "max": 255,                            "unit": "scalar" }, "name": "Destination"},
