@@ -25,14 +25,14 @@ test_cases:
     RX_ZP_YAW_RATE: 0
   response: |-
     7B8100961460000807F
-    7B821DF131F00000000
+    7B821DF130100000000
 - expected_values:
     RX_ZP_DEC: -25.11
     RX_ZP_DEC2: -25.11
     RX_ZP_YAW_RATE: 0
   response: |-
     7B8100961460000807F
-    7B821E0130200000000
+    7B821E0130100000000
 - expected_values:
     RX_ZP_DEC: -25.11
     RX_ZP_DEC2: -25.11
