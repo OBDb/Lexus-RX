@@ -43,11 +43,11 @@ test_cases:
     RX_YAW_RATE3: 44
   response: 7B80761470EFAAC9373
 - expected_values:
-    RX_LAT_G: -0.4
-    RX_LNG_G: -0.1
-    RX_STEER_ANGLE: -265
-    RX_YAW_RATE3: -32
-  response: 7B8076147ECFB6075A6
+    RX_LAT_G: -0.22
+    RX_LNG_G: 0.12
+    RX_STEER_ANGLE: -297.7
+    RX_YAW_RATE3: -35
+  response: 7B8076147F5065D745F
 - expected_values:
     RX_LAT_G: -0.02
     RX_LNG_G: 0
