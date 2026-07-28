@@ -19,17 +19,17 @@ test_cases:
     7B8100961056F8F03AF
     7B8210001DF00000000
 - expected_values:
+    RX_DECEL: -2.06753
+    RX_DECEL_2: -1.63976
+  response: |-
+    7B810096105717402FF
+    7B82100034000000000
+- expected_values:
     RX_DECEL: -1.78235
     RX_DECEL_2: -4.06376
   response: |-
     7B810096105736309F8
     7B8215720B800000000
-- expected_values:
-    RX_DECEL: -0.78424
-    RX_DECEL_2: -0.92682
-  response: |-
-    7B8100961057A7905FF
-    7B82100073800000000
 - expected_values:
     RX_DECEL: -0.49906
     RX_DECEL_2: -0.78424
