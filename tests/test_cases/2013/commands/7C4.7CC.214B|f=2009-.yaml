@@ -4,5 +4,5 @@ test_cases:
     RX_EVAP_FIN_THERMISTOR: -1
   response: 7CC03614B52
 - expected_values:
-    RX_EVAP_FIN_THERMISTOR: 27.7
-  response: 7CC03614BA4
+    RX_EVAP_FIN_THERMISTOR: 39.6
+  response: 7CC03614BC6
