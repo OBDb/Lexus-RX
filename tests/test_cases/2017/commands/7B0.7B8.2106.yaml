@@ -33,6 +33,10 @@ test_cases:
     RX_YAW_RATE2: -16
   response: 7B8066106707071FF
 - expected_values:
+    RX_YAW_RATE: -10
+    RX_YAW_RATE2: -10
+  response: 7B806610676769077
+- expected_values:
     RX_YAW_RATE: 0
     RX_YAW_RATE2: 0
   response: 7B806610680808000

@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.2153|f=2009-
 test_cases:
 - expected_values:
-    RX_REGULATOR_P: 0.35237
+    RX_REGULATOR_P: 352.37
   response: 7CC03615337
 - expected_values:
-    RX_REGULATOR_P: 1.74982
+    RX_REGULATOR_P: 1749.82
   response: 7CC03615396

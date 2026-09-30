@@ -1,23 +1,23 @@
 command_id: 7C4.7CC.2153|f=2009-
 test_cases:
 - expected_values:
-    RX_REGULATOR_P: 0.55831
+    RX_REGULATOR_P: 558.31
   response: 7CC03615345
 - expected_values:
-    RX_REGULATOR_P: 0.60244
+    RX_REGULATOR_P: 602.44
   response: 7CC03615348
 - expected_values:
-    RX_REGULATOR_P: 0.61715
+    RX_REGULATOR_P: 617.15
   response: 7CC03615349
 - expected_values:
-    RX_REGULATOR_P: 0.63186
+    RX_REGULATOR_P: 631.86
   response: 7CC0361534A
 - expected_values:
-    RX_REGULATOR_P: 0.99961
+    RX_REGULATOR_P: 999.61
   response: 7CC03615363
 - expected_values:
-    RX_REGULATOR_P: 1.02903
+    RX_REGULATOR_P: 1029.03
   response: 7CC03615365
 - expected_values:
-    RX_REGULATOR_P: 1.08787
+    RX_REGULATOR_P: 1087.87
   response: 7CC03615369

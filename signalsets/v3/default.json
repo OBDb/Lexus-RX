@@ -47,7 +47,7 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1059"}, "freq": 0.25, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021], "from": 2023 },
   "signals": [
-    {"id": "RX_ACCEL_PEDAL", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 1.42, "add": -41, "unit": "percent" }, "name": "Accelerator pedal"}
+    {"id": "RX_ACCEL_PEDAL", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 1.42, "add": -28.873, "unit": "percent" }, "name": "Accelerator pedal"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "105C"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021, 2023, 2024], "from": 2027 },
   "signals": [
@@ -114,7 +114,7 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "108A"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
-    {"id": "RX_VVT_IE_DUTY_RATIO_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 199, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "Variable valve timing duty ratio, bank 1"}
+    {"id": "RX_VVT_IE_DUTY_RATIO_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 199, "min": -200, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "Variable valve timing duty ratio, bank 1"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "108D"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
@@ -191,9 +191,9 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1F6D"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021, 2023, 2024], "from": 2027 },
   "signals": [
-    {"id": "RX_HFP_TARGET",        "path": "Fuel", "fmt": {"bix": 8,  "len": 16, "max": 655350, "mul": 10,             "unit": "kilopascal" }, "name": "High fuel pressure, target"},
-    {"id": "RX_HFP_ACTUAL",        "path": "Fuel", "fmt": {"bix": 24, "len": 16, "max": 655.35,            "div": 100, "unit": "kilopascal" }, "name": "High fuel pressure, actual"},
-    {"id": "RX_LOW_FUEL_PRESSURE", "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 655350, "mul": 10,             "unit": "kilopascal" }, "name": "Low fuel pressure"}
+    {"id": "RX_HFP_TARGET",        "path": "Fuel", "fmt": {"bix": 8,  "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "High fuel pressure, target"},
+    {"id": "RX_HFP_ACTUAL",        "path": "Fuel", "fmt": {"bix": 24, "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "High fuel pressure, actual"},
+    {"id": "RX_LOW_FUEL_PRESSURE", "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "Low fuel pressure"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "2827"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
@@ -272,16 +272,16 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "42"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012, 2014, 2016], "from": 2018 },
   "signals": [
-    {"id": "RX_FR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {           "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Front right wheel acceleration"},
-    {"id": "RX_FL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Front left wheel acceleration"},
-    {"id": "RX_RR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Rear right wheel acceleration"},
-    {"id": "RX_RL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "metersPerSecondSquared" }, "name": "Rear left wheel acceleration"}
+    {"id": "RX_FR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {           "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Front right wheel acceleration"},
+    {"id": "RX_FL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Front left wheel acceleration"},
+    {"id": "RX_RR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Rear right wheel acceleration"},
+    {"id": "RX_RL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Rear left wheel acceleration"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "46"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012, 2014, 2016], "from": 2018 },
   "signals": [
-    {"id": "RX_ZP_DEC",      "path": "Orientation", "fmt": {           "len": 8, "max": 24.9, "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration"},
-    {"id": "RX_ZP_DEC2",     "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 24.9, "min": -25.11, "mul": 0.1961568627, "add": -25.11, "unit": "metersPerSecondSquared" }, "name": "Zero point of deceleration 2"},
-    {"id": "RX_ZP_YAW_RATE", "path": "Control",     "fmt": {"bix": 16, "len": 8, "max": 127,  "min": -128,                        "add": -128,   "unit": "degrees"                }, "name": "Zero point of yaw rate"}
+    {"id": "RX_ZP_DEC",      "path": "Orientation", "fmt": {           "len": 8, "max": 2.54, "min": -2.56, "div": 50,              "sign": true, "unit": "gravity" }, "name": "Zero point of deceleration"},
+    {"id": "RX_ZP_DEC2",     "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 2.54, "min": -2.56, "div": 50,              "sign": true, "unit": "gravity" }, "name": "Zero point of deceleration 2"},
+    {"id": "RX_ZP_YAW_RATE", "path": "Control",     "fmt": {"bix": 16, "len": 8, "max": 127,  "min": -128,             "add": -128,               "unit": "degrees" }, "name": "Zero point of yaw rate"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012, 2014, 2016], "from": 2018 },
   "signals": [
@@ -378,11 +378,11 @@
   ]},
 { "hdr": "7C4", "rax": "7CC", "cmd": {"21": "53"}, "freq": 1, "filter": { "from": 2009 }, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2014, 2016, 2018, 2019, 2021], "from": 2023 },
   "signals": [
-    {"id": "RX_REGULATOR_P", "path": "Engine", "fmt": { "len": 8, "max": 3.29437, "min": -0.45668, "mul": 3.75105, "div": 255, "add": -0.45668, "unit": "scalar" }, "name": "Regulator pressure sensor"}
+    {"id": "RX_REGULATOR_P", "path": "Engine", "fmt": { "len": 8, "max": 3294, "min": -456.68, "mul": 375105, "div": 25500, "add": -456.68, "unit": "kilopascal" }, "name": "Regulator pressure"}
   ]},
 { "hdr": "7D0", "rax": "7D8", "cmd": {"21": "62"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2012, "years": [2014, 2016, 2018, 2019, 2021], "from": 2023 },
   "signals": [
-    {"id": "RX_PARKING_BRAKE", "path": "Control", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
+    {"id": "RX_PARKING_BRAKE", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
 { "hdr": "7D2", "fcm1": true, "cmd": {"22": "1F5B"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
@@ -436,7 +436,7 @@
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F05"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
-    {"id": "RX_COOL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Coolant temperature"}
+    {"id": "RX_COOL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Coolant temperature"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1F0D"}, "freq": 0.25, "filter": { "from": 2023 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
@@ -490,7 +490,7 @@
     {"id": "RX_TARGET_AIR_FUEL_RATIO", "path": "Fuel",    "fmt": {           "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "Target air-fuel ratio"},
     {"id": "RX_AF_LAMBDA_B1S1",        "path": "Engine",  "fmt": {"bix": 16, "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "AF lambda, bank 1 sensor 1"},
     {"id": "RX_AFS_VOLTAGE_B1S1",      "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 7.99,                "mul": 7.99, "div": 65535,              "unit": "volts"     }, "name": "Air fuel sensor voltage, bank 1 sensor 1"},
-    {"id": "RX_AFS_CURRENT_B1S1",      "path": "Engine",  "fmt": {"bix": 64, "len": 16, "max": 127.99, "min": -128,                            "add": -128, "unit": "milliamps" }, "name": "Air fuel sensor current, bank 1 sensor 1"},
+    {"id": "RX_AFS_CURRENT_B1S1",      "path": "Engine",  "fmt": {"bix": 64, "len": 16, "max": 127.99, "min": -128,              "div": 256,   "add": -128, "unit": "milliamps" }, "name": "Air fuel sensor current, bank 1 sensor 1"},
     {"id": "RX_O2S_B1S2",              "path": "Engine",  "fmt": {"bix": 80, "len": 8,  "max": 1.275,               "mul": 5,    "div": 1000,               "unit": "volts"     }, "name": "O2S, bank 1 sensor 2"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "05"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2011, 2012, 2014], "from": 2016 },
@@ -570,7 +570,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "28"}, "freq": 5, "filter": { "to": 2008 }, "dbgfilter": { "to": 2005, "years": [2007] },
   "signals": [
-    {"id": "RX_ODO_2NDGEN", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "RX_ODO_2NDGEN", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "45"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2011, 2012, 2014], "from": 2016 },
   "signals": [
