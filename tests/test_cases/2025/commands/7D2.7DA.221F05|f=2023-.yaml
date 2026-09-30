@@ -4,5 +4,5 @@ test_cases:
     RX_COOL_T: 18
   response: 7DA04621F053A
 - expected_values:
-    RX_COOL_T: 215
-  response: 7DA04621F05FF
+    RX_COOL_T: 94
+  response: 7DA04621F0586

@@ -51,6 +51,6 @@ test_cases:
 - expected_values:
     RX_LAT_G: -0.02
     RX_LNG_G: 0
-    RX_STEER_ANGLE: -99.6
-    RX_YAW_RATE3: -6
-  response: 7B8076147FF007A7C1C
+    RX_STEER_ANGLE: 432.7
+    RX_YAW_RATE3: -12
+  response: 7B8076147FF007490E7

@@ -1,7 +1,7 @@
 command_id: 700.708.221F6D|f=2016-
 test_cases:
 - expected_values:
-    RX_HFP_ACTUAL: 2.84
+    RX_HFP_ACTUAL: 2840
     RX_HFP_TARGET: 2370
     RX_LOW_FUEL_PRESSURE: 390
   response: |-
@@ -9,7 +9,7 @@ test_cases:
     70821011C0000280027
     7082200000000000000
 - expected_values:
-    RX_HFP_ACTUAL: 2.94
+    RX_HFP_ACTUAL: 2940
     RX_HFP_TARGET: 2370
     RX_LOW_FUEL_PRESSURE: 380
   response: |-
@@ -17,7 +17,7 @@ test_cases:
     7082101260000280026
     7082200000000000000
 - expected_values:
-    RX_HFP_ACTUAL: 3
+    RX_HFP_ACTUAL: 3000
     RX_HFP_TARGET: 2370
     RX_LOW_FUEL_PRESSURE: 390
   response: |-
@@ -25,7 +25,7 @@ test_cases:
     70821012C0000280027
     7082200000000000000
 - expected_values:
-    RX_HFP_ACTUAL: 3.01
+    RX_HFP_ACTUAL: 3010
     RX_HFP_TARGET: 2370
     RX_LOW_FUEL_PRESSURE: 400
   response: |-
@@ -33,7 +33,7 @@ test_cases:
     70821012D0000280028
     7082200000000000000
 - expected_values:
-    RX_HFP_ACTUAL: 3.91
+    RX_HFP_ACTUAL: 3910
     RX_HFP_TARGET: 2370
     RX_LOW_FUEL_PRESSURE: 310
   response: |-
@@ -41,7 +41,7 @@ test_cases:
     70821018700001E001F
     7082200000000000000
 - expected_values:
-    RX_HFP_ACTUAL: 7.44
+    RX_HFP_ACTUAL: 7440
     RX_HFP_TARGET: 2370
     RX_LOW_FUEL_PRESSURE: 290
   response: |-
@@ -49,7 +49,7 @@ test_cases:
     7082102E800001E001D
     7082200000000000000
 - expected_values:
-    RX_HFP_ACTUAL: 12.15
+    RX_HFP_ACTUAL: 12150
     RX_HFP_TARGET: 2370
     RX_LOW_FUEL_PRESSURE: 300
   response: |-
@@ -57,7 +57,7 @@ test_cases:
     7082104BF00001E001E
     7082200000000000000
 - expected_values:
-    RX_HFP_ACTUAL: 3.36
+    RX_HFP_ACTUAL: 3360
     RX_HFP_TARGET: 2400
     RX_LOW_FUEL_PRESSURE: 300
   response: |-
@@ -65,7 +65,7 @@ test_cases:
     70821015000001E001E
     7082200000000000000
 - expected_values:
-    RX_HFP_ACTUAL: 2.87
+    RX_HFP_ACTUAL: 2870
     RX_HFP_TARGET: 2590
     RX_LOW_FUEL_PRESSURE: 400
   response: |-
@@ -73,7 +73,7 @@ test_cases:
     70821011F0000280028
     7082200000000000000
 - expected_values:
-    RX_HFP_ACTUAL: 6.32
+    RX_HFP_ACTUAL: 6320
     RX_HFP_TARGET: 6240
     RX_LOW_FUEL_PRESSURE: 300
   response: |-
