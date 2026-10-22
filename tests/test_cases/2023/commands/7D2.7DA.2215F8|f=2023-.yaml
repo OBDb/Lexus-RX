@@ -1,0 +1,8 @@
+command_id: 7D2.7DA.2215F8|f=2023-
+test_cases:
+- expected_values:
+    RX_12V_T: 21.4
+  response: 7DA056215F80266
+- expected_values:
+    RX_12V_T: 26.8
+  response: 7DA056215F8029C

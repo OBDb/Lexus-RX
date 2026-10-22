@@ -21,3 +21,10 @@ test_cases:
   response: |-
     7B81009614600008080
     7B82110001F00000000
+- expected_values:
+    RX_ZP_DEC: 0
+    RX_ZP_DEC2: 0
+    RX_ZP_YAW_RATE: 0
+  response: |-
+    7B81009614600008080
+    7B82114011F00000000

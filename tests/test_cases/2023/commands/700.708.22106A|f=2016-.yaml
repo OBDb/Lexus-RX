@@ -1,0 +1,14 @@
+command_id: 700.708.22106A|f=2016-
+test_cases:
+- expected_values:
+    RX_FP_DUTY_RATIO: 30
+  response: 7080562106A01EC
+- expected_values:
+    RX_FP_DUTY_RATIO: 233.41463
+  response: 7080562106A0EF4
+- expected_values:
+    RX_FP_DUTY_RATIO: 234.63415
+  response: 7080562106A0F08
+- expected_values:
+    RX_FP_DUTY_RATIO: 261.28049
+  response: 7080562106A10BD

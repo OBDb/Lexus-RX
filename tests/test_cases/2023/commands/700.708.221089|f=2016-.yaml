@@ -1,0 +1,23 @@
+command_id: 700.708.221089|f=2016-
+test_cases:
+- expected_values:
+    RX_EXHAUST_VVT_HOLD_LEARN_VALUE_1: 61.05744
+  response: '708056210892716'
+- expected_values:
+    RX_EXHAUST_VVT_HOLD_LEARN_VALUE_1: 61.79579
+  response: 70805621089278F
+- expected_values:
+    RX_EXHAUST_VVT_HOLD_LEARN_VALUE_1: 62.54025
+  response: '708056210892809'
+- expected_values:
+    RX_EXHAUST_VVT_HOLD_LEARN_VALUE_1: 63.21758
+  response: '708056210892878'
+- expected_values:
+    RX_EXHAUST_VVT_HOLD_LEARN_VALUE_1: 63.63252
+  response: 7080562108928BC
+- expected_values:
+    RX_EXHAUST_VVT_HOLD_LEARN_VALUE_1: 64.76751
+  response: '708056210892976'
+- expected_values:
+    RX_EXHAUST_VVT_HOLD_LEARN_VALUE_1: 65.0421
+  response: 7080562108929A3

@@ -1,0 +1,11 @@
+command_id: 700.708.22108D|f=2023-
+test_cases:
+- expected_values:
+    RX_INTAKE_VVT_OVER_RET_LEARN_B1: 34.93163
+  response: 7080562108D0DF9
+- expected_values:
+    RX_INTAKE_VVT_OVER_RET_LEARN_B1: 34.99022
+  response: 7080562108D0DFF
+- expected_values:
+    RX_INTAKE_VVT_OVER_RET_LEARN_B1: 35.09764
+  response: 7080562108D0E0A

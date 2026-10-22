@@ -1,0 +1,58 @@
+command_id: 7D2.7DA.221075|f=2023-
+test_cases:
+- expected_values:
+    RX_FL_WHEEL_VSS: 0
+    RX_FR_WHEEL_VSS: 0
+    RX_RL_WHEEL_VSS: 0
+    RX_RR_WHEEL_VSS: 0
+  response: |-
+    7DA100B621075800080
+    7DA2100800080000000
+- expected_values:
+    RX_FL_WHEEL_VSS: 5.36
+    RX_FR_WHEEL_VSS: 5.07
+    RX_RL_WHEEL_VSS: 4.93
+    RX_RR_WHEEL_VSS: 5.14
+  response: |-
+    7DA100B62107581FB82
+    7DA2118820281ED0000
+- expected_values:
+    RX_FL_WHEEL_VSS: 6.07
+    RX_FR_WHEEL_VSS: 5.84
+    RX_RL_WHEEL_VSS: 6.05
+    RX_RR_WHEEL_VSS: 5.93
+  response: |-
+    7DA100B621075824882
+    7DA215F8251825D0000
+- expected_values:
+    RX_FL_WHEEL_VSS: 13.1
+    RX_FR_WHEEL_VSS: 12.2
+    RX_RL_WHEEL_VSS: 13.07
+    RX_RR_WHEEL_VSS: 11.99
+  response: |-
+    7DA100B62107584C485
+    7DA211E84AF851B0000
+- expected_values:
+    RX_FL_WHEEL_VSS: 39.06
+    RX_FR_WHEEL_VSS: 39.27
+    RX_RL_WHEEL_VSS: 38.95
+    RX_RR_WHEEL_VSS: 39.86
+  response: |-
+    7DA100B6210758F578F
+    7DA21428F928F370000
+- expected_values:
+    RX_FL_WHEEL_VSS: 66.19
+    RX_FR_WHEEL_VSS: 66.03
+    RX_RL_WHEEL_VSS: 66.08
+    RX_RR_WHEEL_VSS: 66.56
+  response: |-
+    7DA100B62107599CB99
+    7DA21DB9A0099D00000
+- expected_values:
+    RX_FL_WHEEL_VSS: 74.48
+    RX_FR_WHEEL_VSS: 74.61
+    RX_RL_WHEEL_VSS: 74.48
+    RX_RR_WHEEL_VSS: 74.72
+  response: |-
+    7DA100B6210759D259D
+    7DA21189D309D180000

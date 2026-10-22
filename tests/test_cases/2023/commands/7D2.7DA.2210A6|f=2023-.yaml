@@ -1,0 +1,18 @@
+command_id: 7D2.7DA.2210A6|f=2023-
+test_cases:
+- expected_values:
+    RX_M_INVRT_MAX_T: 36
+    RX_RM_INVRT_COOL_T: 28
+  response: 7DA066210A644424C
+- expected_values:
+    RX_M_INVRT_MAX_T: 33
+    RX_RM_INVRT_COOL_T: 31
+  response: 7DA066210A6474149
+- expected_values:
+    RX_M_INVRT_MAX_T: 62
+    RX_RM_INVRT_COOL_T: 44
+  response: 7DA066210A6544A66
+- expected_values:
+    RX_M_INVRT_MAX_T: 54
+    RX_RM_INVRT_COOL_T: 50
+  response: 7DA066210A65A465E

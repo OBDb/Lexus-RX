@@ -11,4 +11,8 @@ test_cases:
 - expected_values:
     RX_AIR_OUTLET_SERVO_ACTU_PULSE_D: 30
     RX_AIR_OUTLET_SERVO_PULSE_D: 30
+  response: 7CC0661431E1E0016
+- expected_values:
+    RX_AIR_OUTLET_SERVO_ACTU_PULSE_D: 30
+    RX_AIR_OUTLET_SERVO_PULSE_D: 30
   response: 7CC0661431E1E00FF

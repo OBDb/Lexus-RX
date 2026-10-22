@@ -1,0 +1,14 @@
+command_id: 700.708.2210CD|f=2016-
+test_cases:
+- expected_values:
+    RX_LFPS: -2982.1
+  response: 708056210CD8B83
+- expected_values:
+    RX_LFPS: -2970.1
+  response: 708056210CD8BFB
+- expected_values:
+    RX_LFPS: -2968.6
+  response: 708056210CD8C0A
+- expected_values:
+    RX_LFPS: -2660.8
+  response: 708056210CD9810

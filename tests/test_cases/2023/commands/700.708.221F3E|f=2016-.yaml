@@ -1,0 +1,14 @@
+command_id: 700.708.221F3E|f=2016-
+test_cases:
+- expected_values:
+    RX_CAT_T_BANK_1_SENSOR_2: 84.2
+  response: 70805621F3E04DA
+- expected_values:
+    RX_CAT_T_BANK_1_SENSOR_2: 473.2
+  response: 70805621F3E140C
+- expected_values:
+    RX_CAT_T_BANK_1_SENSOR_2: 496.7
+  response: 70805621F3E14F7
+- expected_values:
+    RX_CAT_T_BANK_1_SENSOR_2: 598.1
+  response: 70805621F3E18ED
