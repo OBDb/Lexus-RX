@@ -6,6 +6,3 @@ test_cases:
 - expected_values:
     RX_FLI: 89.80392
   response: 70804621F2FE5
-- expected_values:
-    RX_FLI: 95.29412
-  response: 70804621F2FF3

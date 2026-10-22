@@ -1,0 +1,29 @@
+command_id: 7D2.7DA.221F49|f=2023-
+test_cases:
+- expected_values:
+    RX_ACC_PEDAL_POS_1: 15.68627
+  response: 7DA04621F4928
+- expected_values:
+    RX_ACC_PEDAL_POS_1: 18.82353
+  response: 7DA04621F4930
+- expected_values:
+    RX_ACC_PEDAL_POS_1: 22.7451
+  response: 7DA04621F493A
+- expected_values:
+    RX_ACC_PEDAL_POS_1: 23.13725
+  response: 7DA04621F493B
+- expected_values:
+    RX_ACC_PEDAL_POS_1: 25.09804
+  response: 7DA04621F4940
+- expected_values:
+    RX_ACC_PEDAL_POS_1: 25.4902
+  response: 7DA04621F4941
+- expected_values:
+    RX_ACC_PEDAL_POS_1: 25.88235
+  response: 7DA04621F4942
+- expected_values:
+    RX_ACC_PEDAL_POS_1: 29.41176
+  response: 7DA04621F494B
+- expected_values:
+    RX_ACC_PEDAL_POS_1: 30.58824
+  response: 7DA04621F494E

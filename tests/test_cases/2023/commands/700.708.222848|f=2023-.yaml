@@ -1,0 +1,11 @@
+command_id: 700.708.222848|f=2023-
+test_cases:
+- expected_values:
+    RX_EOP_CONTROL_VALVE: 99.94501
+  response: 70805622848051E
+- expected_values:
+    RX_EOP_CONTROL_VALVE: 566.25333
+  response: 708056228481CFE
+- expected_values:
+    RX_EOP_CONTROL_VALVE: 778.50296
+  response: 7080562284827DC

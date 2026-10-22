@@ -1,0 +1,8 @@
+command_id: 700.708.221002|f=2016-
+test_cases:
+- expected_values:
+    RX_12V_V: 12.74899
+  response: 7080562100228CC
+- expected_values:
+    RX_12V_V: 14.10641
+  response: 708056210022D24

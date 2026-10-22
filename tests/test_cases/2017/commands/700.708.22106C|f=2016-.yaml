@@ -7,5 +7,5 @@ test_cases:
     RX_DIST_SINCE_BAT_DISC: 767
   response: 7080562106C02FF
 - expected_values:
-    RX_DIST_SINCE_BAT_DISC: 49042
-  response: 7080562106CBF92
+    RX_DIST_SINCE_BAT_DISC: 49921
+  response: 7080562106CC301

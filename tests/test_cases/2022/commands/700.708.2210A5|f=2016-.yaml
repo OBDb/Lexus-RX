@@ -4,27 +4,7 @@ test_cases:
     RX_MISFIRE_COUNT: 0
   response: |-
     70810086210A5000000
-    7082100D00000000000
-- expected_values:
-    RX_MISFIRE_COUNT: 0
-  response: |-
-    70810086210A5000000
     7082100D20000000000
-- expected_values:
-    RX_MISFIRE_COUNT: 0
-  response: |-
-    70810086210A5000000
-    7082100D40000000000
-- expected_values:
-    RX_MISFIRE_COUNT: 0
-  response: |-
-    70810086210A5000000
-    7082100DC0000000000
-- expected_values:
-    RX_MISFIRE_COUNT: 0
-  response: |-
-    70810086210A5000001
-    7082100C90000000000
 - expected_values:
     RX_MISFIRE_COUNT: 0
   response: |-
@@ -35,11 +15,6 @@ test_cases:
   response: |-
     70810086210A5000069
     7082100D20000000000
-- expected_values:
-    RX_MISFIRE_COUNT: 0
-  response: |-
-    70810086210A5000093
-    7082100C90000000000
 - expected_values:
     RX_MISFIRE_COUNT: 0
   response: |-

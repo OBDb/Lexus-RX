@@ -12,15 +12,3 @@ test_cases:
 - expected_values:
     RX_12V_V: 13.50094
   response: 708056210022B34
-- expected_values:
-    RX_12V_V: 13.85739
-  response: 708056210022C58
-- expected_values:
-    RX_12V_V: 13.87692
-  response: 708056210022C68
-- expected_values:
-    RX_12V_V: 13.8818
-  response: 708056210022C6C
-- expected_values:
-    RX_12V_V: 13.9111
-  response: 708056210022C84

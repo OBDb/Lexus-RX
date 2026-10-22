@@ -1,0 +1,8 @@
+command_id: 701.709.220103|f=2016-
+test_cases:
+- expected_values:
+    RX_ODO: 82601
+  response: 70907620103020142A9
+- expected_values:
+    RX_ODO: 82645
+  response: 70907620103020142D5

@@ -1,0 +1,8 @@
+command_id: 700.708.22105E|f=2016-
+test_cases:
+- expected_values:
+    RX_ECU_INTERNAL_T: 22
+  response: 7080462105E3E
+- expected_values:
+    RX_ECU_INTERNAL_T: 41
+  response: '7080462105E51'

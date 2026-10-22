@@ -1,0 +1,56 @@
+command_id: 7D2.7DA.2210A1|f=2023-
+test_cases:
+- expected_values:
+    RX_RPM: 0
+    RX_TQ: 0.25
+  response: |-
+    7DA100C6210A1800080
+    7DA2100020080020400
+- expected_values:
+    RX_RPM: 1121
+    RX_TQ: -10.75
+  response: |-
+    7DA100C6210A184617F
+    7DA219902007FAA0400
+- expected_values:
+    RX_RPM: 1140
+    RX_TQ: 6.125
+  response: |-
+    7DA100C6210A1847480
+    7DA2127020080310400
+- expected_values:
+    RX_RPM: 1169
+    RX_TQ: -1.375
+  response: |-
+    7DA100C6210A184917F
+    7DA21EF02007FF50400
+- expected_values:
+    RX_RPM: 1183
+    RX_TQ: -111.375
+  response: |-
+    7DA100C6210A1849F7C
+    7DA219302007C850400
+- expected_values:
+    RX_RPM: 1200
+    RX_TQ: 40.75
+  response: |-
+    7DA100C6210A184B081
+    7DA2141020081460400
+- expected_values:
+    RX_RPM: 1262
+    RX_TQ: 1.875
+  response: |-
+    7DA100C6210A184EE80
+    7DA21030200800F0400
+- expected_values:
+    RX_RPM: 1602
+    RX_TQ: -60.75
+  response: |-
+    7DA100C6210A186427D
+    7DA21F102007E1A0400
+- expected_values:
+    RX_RPM: 2113
+    RX_TQ: 13.625
+  response: |-
+    7DA100C6210A1884180
+    7DA21630200806D0400

@@ -1,0 +1,18 @@
+command_id: 7D2.7DA.22106C|fc=1,f=2023-
+test_cases:
+- expected_values:
+    RX_HVBAT_SOC_MAX: 48.5
+    RX_HVBAT_SOC_MIN: 43.5
+  response: 7DA0662106C616157
+- expected_values:
+    RX_HVBAT_SOC_MAX: 56.5
+    RX_HVBAT_SOC_MIN: 36
+  response: 7DA0662106C617148
+- expected_values:
+    RX_HVBAT_SOC_MAX: 65
+    RX_HVBAT_SOC_MIN: 64.5
+  response: 7DA0662106C828281
+- expected_values:
+    RX_HVBAT_SOC_MAX: 75
+    RX_HVBAT_SOC_MIN: 40
+  response: 7DA0662106C889650

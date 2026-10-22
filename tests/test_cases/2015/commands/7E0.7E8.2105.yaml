@@ -13,12 +13,6 @@ test_cases:
     7E8100C61054E79150A
     7E821150A1270127000
 - expected_values:
-    RX_CATALYST_T_B1S1: 542.4
-    RX_CATALYST_T_B1S2: 542.4
-  response: |-
-    7E8100C61054E7E16C0
-    7E82116C0122F122F00
-- expected_values:
     RX_CATALYST_T_B1S1: 783.2
     RX_CATALYST_T_B1S2: 783.2
   response: |-
@@ -78,3 +72,9 @@ test_cases:
   response: |-
     7E8100C61054F441530
     7E82115300D980D9800
+- expected_values:
+    RX_CATALYST_T_B1S1: 416.9
+    RX_CATALYST_T_B1S2: 416.9
+  response: |-
+    7E8100C61054F9311D9
+    7E82111D90C080C0800

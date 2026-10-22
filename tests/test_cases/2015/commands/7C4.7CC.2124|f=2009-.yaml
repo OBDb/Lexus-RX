@@ -4,5 +4,5 @@ test_cases:
     RX_SOLAR_DRIVER: 0
   response: 7CC03612400
 - expected_values:
-    RX_SOLAR_DRIVER: 113
-  response: 7CC03612471
+    RX_SOLAR_DRIVER: 125
+  response: 7CC0361247D
