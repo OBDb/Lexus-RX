@@ -19,12 +19,6 @@ test_cases:
     7DA1009621F9A0E0049
     7DA2100FF8700000000
 - expected_values:
-    RX_HVBAT_C: -3.1
-    RX_HVBAT_V: 294
-  response: |-
-    7DA1009621F9A0E0049
-    7DA2180FFE100000000
-- expected_values:
     RX_HVBAT_C: -27.3
     RX_HVBAT_V: 299
   response: |-
@@ -36,6 +30,12 @@ test_cases:
   response: |-
     7DA1009621F9A0E004C
     7DA2140FFF800000000
+- expected_values:
+    RX_HVBAT_C: -8
+    RX_HVBAT_V: 319
+  response: |-
+    7DA1009621F9A0E004F
+    7DA21C0FFB000000000
 - expected_values:
     RX_HVBAT_C: 0.7
     RX_HVBAT_V: 322
