@@ -7,35 +7,35 @@ test_cases:
     7DA1009621F9A0E0044
     7DA2180065900000000
 - expected_values:
-    RX_HVBAT_C: 16.7
-    RX_HVBAT_V: 304
+    RX_HVBAT_C: 41.5
+    RX_HVBAT_V: 284
+  response: |-
+    7DA1009621F9A0E0047
+    7DA2100019F00000000
+- expected_values:
+    RX_HVBAT_C: -12.1
+    RX_HVBAT_V: 292
+  response: |-
+    7DA1009621F9A0E0049
+    7DA2100FF8700000000
+- expected_values:
+    RX_HVBAT_C: -3.1
+    RX_HVBAT_V: 294
+  response: |-
+    7DA1009621F9A0E0049
+    7DA2180FFE100000000
+- expected_values:
+    RX_HVBAT_C: -27.3
+    RX_HVBAT_V: 299
+  response: |-
+    7DA1009621F9A0E004A
+    7DA21C0FEEF00000000
+- expected_values:
+    RX_HVBAT_C: -0.8
+    RX_HVBAT_V: 305
   response: |-
     7DA1009621F9A0E004C
-    7DA210000A700000000
-- expected_values:
-    RX_HVBAT_C: 2
-    RX_HVBAT_V: 307
-  response: |-
-    7DA1009621F9A0E004C
-    7DA21C0001400000000
-- expected_values:
-    RX_HVBAT_C: -20.9
-    RX_HVBAT_V: 308
-  response: |-
-    7DA1009621F9A0E004D
-    7DA2100FF2F00000000
-- expected_values:
-    RX_HVBAT_C: -1.7
-    RX_HVBAT_V: 311
-  response: |-
-    7DA1009621F9A0E004D
-    7DA21C0FFEF00000000
-- expected_values:
-    RX_HVBAT_C: -9.5
-    RX_HVBAT_V: 318
-  response: |-
-    7DA1009621F9A0E004F
-    7DA2180FFA100000000
+    7DA2140FFF800000000
 - expected_values:
     RX_HVBAT_C: 0.7
     RX_HVBAT_V: 322
@@ -43,8 +43,8 @@ test_cases:
     7DA1009621F9A0E0050
     7DA2180000700000000
 - expected_values:
-    RX_HVBAT_C: -5.9
-    RX_HVBAT_V: 343
+    RX_HVBAT_C: -4.5
+    RX_HVBAT_V: 345
   response: |-
-    7DA1009621F9A0E0055
-    7DA21C0FFC500000000
+    7DA1009621F9A0E0056
+    7DA2140FFD300000000
