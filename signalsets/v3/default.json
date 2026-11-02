@@ -169,7 +169,7 @@
   "signals": [
     {"id": "RX_ATF_T_PAN_V3", "path": "Transmission", "fmt": { "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, pan var.3", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1F2F"}, "freq": 30, "filter": { "from": 2016 }, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F2F"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
   "signals": [
     {"id": "RX_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
