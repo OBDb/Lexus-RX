@@ -163,7 +163,7 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1621"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021], "from": 2024 },
   "signals": [
-    {"id": "RX_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
+    {"id": "RX_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear", "suggestedMetric": "gear"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1627"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021], "from": 2024 },
   "signals": [
@@ -285,8 +285,8 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012, 2014, 2016], "from": 2018 },
   "signals": [
-    {"id": "RX_LAT_G",       "path": "Orientation", "fmt": {           "len": 8,  "max": 2.5,  "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g"},
-    {"id": "RX_LNG_G",       "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 2.5,  "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Longitudinal g"},
+    {"id": "RX_LAT_G",       "path": "Orientation", "fmt": {           "len": 8,  "max": 2.5,  "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g",            "suggestedMetric": "lateralAcceleration"},
+    {"id": "RX_LNG_G",       "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 2.5,  "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Longitudinal g",       "suggestedMetric": "longitudinalAcceleration"},
     {"id": "RX_YAW_RATE3",   "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,  "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate value"},
     {"id": "RX_STEER_ANGLE", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276, "min": -3276, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive = counter-clockwise, negative = clockwise."}
   ]},
@@ -460,8 +460,8 @@
     {"id": "RX_CALCULATED_LOAD_7E0_V2",      "path": "Engine",   "fmt": {            "len": 8,  "max": 100,                  "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Calculated load_7e0"},
     {"id": "RX_VEHICLE_LOAD_V2",             "path": "Engine",   "fmt": {"bix": 8,   "len": 16, "max": 100,                  "mul": 100, "div": 65535,             "unit": "percent"           }, "name": "Vehicle load"},
     {"id": "RX_MAF_V2",                      "path": "Engine",   "fmt": {"bix": 24,  "len": 16, "max": 655.35,                           "div": 100,               "unit": "gramsPerSecond"    }, "name": "Mass air flow",                "suggestedMetric": "massAirFlow"},
-    {"id": "RX_MAP_V2",                      "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                        "unit": "kilopascal"        }, "name": "Manifold absolute pressure"},
-    {"id": "RX_INTAKE_AIR_V2",               "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 215,      "min": -40,                           "add": -40, "unit": "celsius"           }, "name": "Intake air"},
+    {"id": "RX_MAP_V2",                      "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                        "unit": "kilopascal"        }, "name": "Manifold absolute pressure",   "suggestedMetric": "absoluteBoostPressure"},
+    {"id": "RX_INTAKE_AIR_V2",               "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 215,      "min": -40,                           "add": -40, "unit": "celsius"           }, "name": "Intake air",                   "suggestedMetric": "intakeAirTemperature"},
     {"id": "RX_ATMOSPHERE_PRESSURE_V2",      "path": "Engine",   "fmt": {"bix": 56,  "len": 8,  "max": 255,                                                        "unit": "kilopascal"        }, "name": "Atmosphere pressure"},
     {"id": "RX_COOLANT_TEMP_V2",             "path": "Engine",   "fmt": {"bix": 64,  "len": 8,  "max": 215,      "min": -40,                           "add": -40, "unit": "celsius"           }, "name": "Coolant temp"},
     {"id": "RX_ENGINE_SPEED_V2",             "path": "Movement", "fmt": {"bix": 72,  "len": 16, "max": 16383.75,                         "div": 4,                 "unit": "rpm"               }, "name": "Engine speed"},
@@ -482,7 +482,7 @@
     {"id": "RX_CALCULATED_LOAD_7E0",      "path": "Engine",   "fmt": {            "len": 8,  "max": 100,                  "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Calculated load_7e0"},
     {"id": "RX_VEHICLE_LOAD",             "path": "Engine",   "fmt": {"bix": 8,   "len": 16, "max": 100,                  "mul": 100, "div": 65535,             "unit": "percent"           }, "name": "Vehicle load"},
     {"id": "RX_MAF",                      "path": "Engine",   "fmt": {"bix": 24,  "len": 16, "max": 655.35,                           "div": 100,               "unit": "gramsPerSecond"    }, "name": "Mass air flow",                "suggestedMetric": "massAirFlow"},
-    {"id": "RX_MAP",                      "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                        "unit": "kilopascal"        }, "name": "Manifold absolute pressure"},
+    {"id": "RX_MAP",                      "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                        "unit": "kilopascal"        }, "name": "Manifold absolute pressure",   "suggestedMetric": "absoluteBoostPressure"},
     {"id": "RX_ATMOSPHERE_PRESSURE",      "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                        "unit": "kilopascal"        }, "name": "Atmosphere pressure"},
     {"id": "RX_COOLANT_TEMP",             "path": "Engine",   "fmt": {"bix": 56,  "len": 8,  "max": 215,      "min": -40,                           "add": -40, "unit": "celsius"           }, "name": "Coolant temp"},
     {"id": "RX_ENGINE_SPEED",             "path": "Movement", "fmt": {"bix": 64,  "len": 16, "max": 16383.75,                         "div": 4,                 "unit": "rpm"               }, "name": "Engine speed"},
@@ -520,7 +520,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2011, 2012, 2014], "from": 2016 },
   "signals": [
-    {"id": "RX_MIL",                            "path": "DTCs", "fmt": {           "len": 1,  "max": 1,     "unit": "offon"      }, "name": "MIL"},
+    {"id": "RX_MIL",                            "path": "DTCs", "fmt": {           "len": 1,  "max": 1,     "unit": "offon"      }, "name": "MIL",                            "suggestedMetric": "checkEngineLightOn"},
     {"id": "RX_NUMBER_OF_EMISSION_DTC",         "path": "DTCs", "fmt": {"bix": 1,  "len": 7,  "max": 127,   "unit": "scalar"     }, "name": "Number of emission DTC"},
     {"id": "RX_COMPLETE_PARTS_MONITOR_AVAIL",   "path": "DTCs", "fmt": {"bix": 13, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Complete parts monitor_avail"},
     {"id": "RX_FUEL_SYSTEM_MONITOR_AVAIL",      "path": "DTCs", "fmt": {"bix": 14, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Fuel system monitor_avail"},
@@ -550,7 +550,7 @@
     {"id": "RX_CC_S",                        "path": "Cruise control", "fmt": {"bix": 8,  "len": 8, "max": 255,                                                      "unit": "kilometersPerHour" }, "name": "Cruise control speed"},
     {"id": "RX_CC_DRIVING_FORCE",            "path": "Cruise control", "fmt": {"bix": 16, "len": 8, "max": 50.8, "min": -51.2, "mul": 102, "div": 255, "add": -51.2, "unit": "scalar"            }, "name": "Requested driving force"},
     {"id": "RX_CC_ON",                       "path": "Cruise control", "fmt": {"bix": 24, "len": 1, "max": 1,                                                        "unit": "offon"             }, "name": "Cruise control, on"},
-    {"id": "RX_CC_CC_ON",                    "path": "Cruise control", "fmt": {"bix": 25, "len": 1, "max": 1,                                                        "unit": "noyes"             }, "name": "Cruise control, activated?"},
+    {"id": "RX_CC_CC_ON",                    "path": "Cruise control", "fmt": {"bix": 25, "len": 1, "max": 1,                                                        "unit": "noyes"             }, "name": "Cruise control, activated?",         "suggestedMetric": "cruiseActive"},
     {"id": "RX_CC_CCS_INDICATOR_M_CPU_ON",   "path": "Cruise control", "fmt": {"bix": 26, "len": 1, "max": 1,                                                        "unit": "offon"             }, "name": "Cruise control indicator"},
     {"id": "RX_CC_CCS_READY_M_CPU_ON",       "path": "Cruise control", "fmt": {"bix": 28, "len": 1, "max": 1,                                                        "unit": "noyes"             }, "name": "Cruise control ready?"},
     {"id": "RX_CC_MAIN_SW_M_CPU_ON",         "path": "Cruise control", "fmt": {"bix": 30, "len": 1, "max": 1,                                                        "unit": "offon"             }, "name": "Cruise control, main switch"},
