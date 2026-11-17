@@ -590,7 +590,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "28"}, "freq": 5, "filter": { "to": 2008 }, "dbgfilter": { "to": 2005, "years": [2007] },
   "signals": [
-    {"id": "RX_ODO_2NDGEN", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "RX_ODO_2NDGEN", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "45"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2011, 2012, 2014], "from": 2016 },
   "signals": [
