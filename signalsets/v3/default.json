@@ -240,11 +240,11 @@
     {"id": "RX_YAW_RATE",  "path": "Orientation", "fmt": {          "len": 8, "max": 127, "min": -128, "add": -128, "unit": "degrees" }, "name": "Yaw rate sensor"},
     {"id": "RX_YAW_RATE2", "path": "Orientation", "fmt": {"bix": 8, "len": 8, "max": 127, "min": -128, "add": -128, "unit": "degrees" }, "name": "Yaw rate sensor, alternate"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "07"}, "freq": 1, "dbgfilter": { "to": 2005, "from": 2007 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "07"}, "freq": 1, "filter": { "to": 2009, "from": 2028 }, "dbgfilter": { "to": 2005, "from": 2007 },
   "signals": [
     {"id": "RX_WHEEL_CYLINDER_PRESSURE", "path": "Tires", "fmt": { "len": 8, "max": 5, "div": 51, "unit": "volts" }, "name": "Wheel cylinder pressure"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1D"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012, 2014], "from": 2016 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1D"}, "freq": 1, "filter": { "to": 2015, "from": 2028 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012, 2014] },
   "signals": [
     {"id": "RX_RESERVOIR_WARNING_SW", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Reservoir warning"},
     {"id": "RX_MAIN_IDLE_SW",         "path": "Control", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Main idle"}
@@ -290,7 +290,7 @@
     {"id": "RX_YAW_RATE3",   "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,  "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate value"},
     {"id": "RX_STEER_ANGLE", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276, "min": -3276, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive = counter-clockwise, negative = clockwise."}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "48"}, "freq": 1, "dbgfilter": { "to": 2005, "from": 2007 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "48"}, "freq": 1, "filter": { "to": 2009, "from": 2028 }, "dbgfilter": { "to": 2005, "from": 2007 },
   "signals": [
     {"id": "RX_FR_REGEN_REQUEST",   "path": "Battery", "fmt": {           "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative request"},
     {"id": "RX_FR_REGEN_OPERATION", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative operation"}

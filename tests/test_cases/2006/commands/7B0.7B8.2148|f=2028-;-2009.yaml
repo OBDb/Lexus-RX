@@ -1,4 +1,4 @@
-command_id: 7B0.7B8.2148
+command_id: 7B0.7B8.2148|f=2028-;-2009
 test_cases:
 - expected_values:
     RX_FR_REGEN_OPERATION: 0
