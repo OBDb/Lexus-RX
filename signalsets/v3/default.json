@@ -91,7 +91,7 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "107B"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021], "from": 2024 },
   "signals": [
-    {"id": "RX_EOT", "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+    {"id": "RX_EOT", "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature", "suggestedMetric": "intakeAirTemperature"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1084"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021], "from": 2024 },
   "signals": [
@@ -213,7 +213,12 @@
   ]},
 { "hdr": "701", "rax": "709", "cmd": {"22": "0103"}, "freq": 10, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021], "from": 2024 },
   "signals": [
-    {"id": "RX_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "RX_ODO_RAW", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Odometer, in the cluster's unit"},
+    {"id": "RX_ODO_UNIT", "path": "Trips", "name": "Odometer unit", "fmt": {"len": 8, "map": {
+          "1": { "description": "Kilometers", "value": "KM" },
+          "2": { "description": "Miles",      "value": "MI" }
+        }}
+    }
   ]},
 { "hdr": "701", "rax": "709", "cmd": {"22": "1620"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021], "from": 2023 },
   "signals": [
@@ -390,7 +395,12 @@
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10, "filter": { "from": 2023 }, "dbgfilter": { "years": [2024], "from": 2027 },
   "signals": [
-    {"id": "RX_ODO_V2_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "RX_ODO_V2_V2_RAW", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Odometer, in the cluster's unit"},
+    {"id": "RX_ODO_V2_V2_UNIT", "path": "Trips", "name": "Odometer unit", "fmt": {"len": 8, "map": {
+          "1": { "description": "Kilometers", "value": "KM" },
+          "2": { "description": "Miles",      "value": "MI" }
+        }}
+    }
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1040"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
@@ -720,5 +730,13 @@
     {"id": "RX_INTERNAL_RESISTANCE_R14", "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 255, "unit": "megaohms" }, "name": "Internal resistance 14"},
     {"id": "RX_INTERNAL_RESISTANCE_R15", "path": "Engine", "fmt": {"bix": 232, "len": 8, "max": 255, "unit": "megaohms" }, "name": "Internal resistance 15"}
   ]}
+],
+"synthetics": [
+  { "id": "RX_ODO", "path": "Trips", "name": "Odometer", "max": 16777215, "unit": "kilometers", "suggestedMetric": "odometer", "formula": {
+    "op": "unit", "value": "RX_ODO_RAW", "key": "RX_ODO_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
+  }},
+  { "id": "RX_ODO_V2_V2", "path": "Trips", "name": "Odometer", "max": 16777215, "unit": "kilometers", "suggestedMetric": "odometer", "formula": {
+    "op": "unit", "value": "RX_ODO_V2_V2_RAW", "key": "RX_ODO_V2_V2_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
+  }}
 ]
 }

@@ -1,20 +1,26 @@
 command_id: 701.709.220103|f=2016-
 test_cases:
 - expected_values:
-    RX_ODO: 58286
+    RX_ODO_RAW: 58286
+    RX_ODO_UNIT: KM
   response: 709076201030100E3AE
 - expected_values:
-    RX_ODO: 132323
+    RX_ODO_RAW: 132323
+    RX_ODO_UNIT: KM
   response: '70907620103010204E3'
 - expected_values:
-    RX_ODO: 60140
+    RX_ODO_RAW: 60140
+    RX_ODO_UNIT: MI
   response: 709076201030200EAEC
 - expected_values:
-    RX_ODO: 60174
+    RX_ODO_RAW: 60174
+    RX_ODO_UNIT: MI
   response: 709076201030200EB0E
 - expected_values:
-    RX_ODO: 67327
+    RX_ODO_RAW: 67327
+    RX_ODO_UNIT: MI
   response: 70907620103020106FF
 - expected_values:
-    RX_ODO: 67328
+    RX_ODO_RAW: 67328
+    RX_ODO_UNIT: MI
   response: '7090762010302010700'
