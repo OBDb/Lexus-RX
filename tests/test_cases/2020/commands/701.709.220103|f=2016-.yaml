@@ -1,14 +1,18 @@
 command_id: 701.709.220103|f=2016-
 test_cases:
 - expected_values:
-    RX_ODO: 31299
+    RX_ODO_RAW: 31299
+    RX_ODO_UNIT: MI
   response: 7090762010302007A43
 - expected_values:
-    RX_ODO: 35839
+    RX_ODO_RAW: 35839
+    RX_ODO_UNIT: MI
   response: 7090762010302008BFF
 - expected_values:
-    RX_ODO: 35840
+    RX_ODO_RAW: 35840
+    RX_ODO_UNIT: MI
   response: 7090762010302008C00
 - expected_values:
-    RX_ODO: 38912
+    RX_ODO_RAW: 38912
+    RX_ODO_UNIT: MI
   response: '7090762010302009800'

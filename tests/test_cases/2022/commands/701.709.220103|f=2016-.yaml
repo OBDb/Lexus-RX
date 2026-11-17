@@ -1,5 +1,6 @@
 command_id: 701.709.220103|f=2016-
 test_cases:
 - expected_values:
-    RX_ODO: 23573
+    RX_ODO_RAW: 23573
+    RX_ODO_UNIT: MI
   response: 7090762010302005C15
