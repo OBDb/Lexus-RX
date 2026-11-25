@@ -1,0 +1,34 @@
+command_id: 7B0.7B8.2147
+test_cases:
+- expected_values:
+    RX_LAT_G: 0
+    RX_LNG_G: 0
+    RX_STEER_ANGLE: 2.9
+    RX_YAW_RATE3: 0
+  response: |-
+    7B81009614700008080
+    7B8211D000000000000
+- expected_values:
+    RX_LAT_G: 0
+    RX_LNG_G: 0
+    RX_STEER_ANGLE: 3.1
+    RX_YAW_RATE3: 0
+  response: |-
+    7B81009614700008080
+    7B8211F000000000000
+- expected_values:
+    RX_LAT_G: 0
+    RX_LNG_G: 0
+    RX_STEER_ANGLE: 3.7
+    RX_YAW_RATE3: 0
+  response: |-
+    7B81009614700008080
+    7B82125000000000000
+- expected_values:
+    RX_LAT_G: 0
+    RX_LNG_G: 0
+    RX_STEER_ANGLE: 4.1
+    RX_YAW_RATE3: 0
+  response: |-
+    7B81009614700008080
+    7B82129000000000000
