@@ -1,0 +1,10 @@
+command_id: 7B0.7B8.2146
+test_cases:
+- expected_values:
+    RX_ZP_DEC: -0.02
+    RX_ZP_DEC2: -0.02
+    RX_ZP_YAW_RATE: 0
+  response: |-
+    7B8100E6146FFFF8080
+    7B8211E091F00000000
+    7B82200000000000000

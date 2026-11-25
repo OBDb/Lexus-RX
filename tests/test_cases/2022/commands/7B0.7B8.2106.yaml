@@ -1,0 +1,6 @@
+command_id: 7B0.7B8.2106
+test_cases:
+- expected_values:
+    RX_YAW_RATE: 0
+    RX_YAW_RATE2: 0
+  response: 7B80661068080803C
