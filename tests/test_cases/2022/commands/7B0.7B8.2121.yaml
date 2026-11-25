@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     RX_VSS: 0
   response: 7B803612100
+- expected_values:
+    RX_VSS: 15.36
+  response: 7B80361210C
+- expected_values:
+    RX_VSS: 55.04
+  response: 7B80361212B
+- expected_values:
+    RX_VSS: 58.88
+  response: 7B80361212E
