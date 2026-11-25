@@ -6,3 +6,27 @@ test_cases:
     RX_TIRE_RL_SPD: 0
     RX_TIRE_RR_SPD: 0
   response: 7B806610300000000
+- expected_values:
+    RX_TIRE_FL_SPD: 16.64
+    RX_TIRE_FR_SPD: 14.08
+    RX_TIRE_RL_SPD: 16.64
+    RX_TIRE_RR_SPD: 14.08
+  response: 7B80661030B0D0B0D
+- expected_values:
+    RX_TIRE_FL_SPD: 19.2
+    RX_TIRE_FR_SPD: 15.36
+    RX_TIRE_RL_SPD: 17.92
+    RX_TIRE_RR_SPD: 15.36
+  response: 7B80661030C0F0C0E
+- expected_values:
+    RX_TIRE_FL_SPD: 53.76
+    RX_TIRE_FR_SPD: 53.76
+    RX_TIRE_RL_SPD: 53.76
+    RX_TIRE_RR_SPD: 53.76
+  response: 7B80661032A2A2A2A
+- expected_values:
+    RX_TIRE_FL_SPD: 57.6
+    RX_TIRE_FR_SPD: 58.88
+    RX_TIRE_RL_SPD: 57.6
+    RX_TIRE_RR_SPD: 58.88
+  response: 7B80661032E2D2E2D
