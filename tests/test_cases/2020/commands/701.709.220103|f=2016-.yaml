@@ -13,6 +13,6 @@ test_cases:
     RX_ODO_UNIT: MI
   response: 7090762010302008C00
 - expected_values:
-    RX_ODO_RAW: 38912
+    RX_ODO_RAW: 43378
     RX_ODO_UNIT: MI
-  response: '7090762010302009800'
+  response: 709076201030200A972
